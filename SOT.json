@@ -1,0 +1,318 @@
+{
+    "intents": [
+        {
+            "intent": "ELTE",
+            "examples": [
+                {
+                    "text": "ELTE what is it?"
+                },
+                {
+                    "text": "What does ELTE"
+                },
+                {
+                    "text": "What does ELTE Refers to"
+                },
+                {
+                    "text": "What ELTE refers to"
+                },
+                {
+                    "text": "What is ELTE"
+                },
+                {
+                    "text": "what is elte?"
+                },
+                {
+                    "text": "What is ELTE refers to"
+                },
+                {
+                    "text": "What is it ELTE"
+                },
+                {
+                    "text": "What is the meaning of ELTE"
+                }
+            ],
+            "description": "What is ELTE"
+        },
+        {
+            "intent": "Hello",
+            "examples": [
+                {
+                    "text": "Buonjour"
+                },
+                {
+                    "text": "Ciao"
+                },
+                {
+                    "text": "Ciaoo"
+                },
+                {
+                    "text": "Ciaooo"
+                },
+                {
+                    "text": "Guten"
+                },
+                {
+                    "text": "Guten Morgan"
+                },
+                {
+                    "text": "Hallo"
+                },
+                {
+                    "text": "Heeey"
+                },
+                {
+                    "text": "Heey"
+                },
+                {
+                    "text": "Hello"
+                },
+                {
+                    "text": "Hey"
+                },
+                {
+                    "text": "Hi"
+                },
+                {
+                    "text": "hola"
+                },
+                {
+                    "text": "Salve"
+                },
+                {
+                    "text": "Szia"
+                },
+                {
+                    "text": "Sziaa"
+                },
+                {
+                    "text": "Sziastok"
+                },
+                {
+                    "text": "Sziasztok"
+                },
+                {
+                    "text": "Sziaztok"
+                },
+                {
+                    "text": "Sziia"
+                },
+                {
+                    "text": "اهلا"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "Languages",
+            "examples": [
+                {
+                    "text": "Arabic"
+                },
+                {
+                    "text": "Chinese"
+                },
+                {
+                    "text": "Do you speak Arabic?"
+                },
+                {
+                    "text": "Do you speak Chinese?"
+                },
+                {
+                    "text": "Do you speak French?"
+                },
+                {
+                    "text": "Do you speak German?"
+                },
+                {
+                    "text": "Do you speak hungarian?"
+                },
+                {
+                    "text": "Do you speak Italian?"
+                },
+                {
+                    "text": "French"
+                },
+                {
+                    "text": "German"
+                },
+                {
+                    "text": "Hungarian?"
+                },
+                {
+                    "text": "Italian"
+                },
+                {
+                    "text": "Japanese"
+                },
+                {
+                    "text": "Languages"
+                },
+                {
+                    "text": "What Languages can you speak"
+                },
+                {
+                    "text": "What Languages do you speak"
+                },
+                {
+                    "text": "What Languages do you you"
+                }
+            ],
+            "description": ""
+        }
+    ],
+    "entities": [],
+    "metadata": {
+        "api_version": {
+            "major_version": "v2",
+            "minor_version": "2018-11-08"
+        }
+    },
+    "dialog_nodes": [
+        {
+            "type": "standard",
+            "title": "Anything else",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "I didn't understand 🤷. You can try rephrasing."
+                            },
+                            {
+                                "text": "Can you reword your statement? I'm not understanding 🤷."
+                            },
+                            {
+                                "text": "I didn't get your meaning 🤷."
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "sequential"
+                    }
+                ]
+            },
+            "conditions": "anything_else",
+            "dialog_node": "Anything else",
+            "previous_sibling": "node_1_1632933416704",
+            "disambiguation_opt_out": true
+        },
+        {
+            "type": "standard",
+            "title": "ELTE",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "Eötvös Loránd University"
+                            },
+                            {
+                                "text": "Eötvös Loránd University is a Hungarian public research university based in Budapest. Founded in 1635, ELTE is one of the largest and most prestigious public higher education institutions in Hungary 🎓🏫"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "multiline"
+                    }
+                ]
+            },
+            "conditions": "#ELTE",
+            "dialog_node": "node_10_1632933238488",
+            "previous_sibling": "node_6_1632933078639"
+        },
+        {
+            "type": "standard",
+            "title": "Languages",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "I am a native English speaker"
+                            },
+                            {
+                                "text": "My developers are teaching me more languages, like Hungarian"
+                            },
+                            {
+                                "text": "So stay tuned, what a smart bot I am 😁😁"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "multiline"
+                    }
+                ]
+            },
+            "conditions": "#Languages",
+            "dialog_node": "node_1_1632933416704",
+            "previous_sibling": "node_10_1632933238488"
+        },
+        {
+            "type": "standard",
+            "title": "Hello",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "Hi"
+                            },
+                            {
+                                "text": "What is the matter? 😃"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "multiline"
+                    }
+                ]
+            },
+            "conditions": "#Hello",
+            "dialog_node": "node_6_1632933078639",
+            "previous_sibling": "Welcome"
+        },
+        {
+            "type": "standard",
+            "title": "Welcome",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "Hello"
+                            },
+                            {
+                                "text": "I am SOT, the Artificial Intelligence chatbot of Eötvös Loránd University 🎓🏫"
+                            },
+                            {
+                                "text": "How can I help you?"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "multiline"
+                    }
+                ]
+            },
+            "conditions": "welcome",
+            "dialog_node": "Welcome"
+        }
+    ],
+    "counterexamples": [],
+    "system_settings": {
+        "disambiguation": {
+            "prompt": "Did you mean:",
+            "enabled": true,
+            "randomize": true,
+            "max_suggestions": 5,
+            "suggestion_text_policy": "title",
+            "none_of_the_above_prompt": "None of the above"
+        },
+        "human_agent_assist": {
+            "prompt": "Did you mean:"
+        },
+        "intent_classification": {
+            "training_backend_version": "v2"
+        },
+        "spelling_auto_correct": true
+    },
+    "learning_opt_out": false,
+    "name": "SOT",
+    "language": "en",
+    "description": "The AI of ELTE"
+}
