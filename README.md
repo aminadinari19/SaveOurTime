@@ -25,3 +25,5 @@ Odisuus:
 
 Worked with Amina in setting up Angular.
 Worked on making the first component i.e homepage.
+
+
