@@ -1,6 +1,162 @@
 {
     "intents": [
         {
+            "intent": "COVID_19",
+            "examples": [
+                {
+                    "text": "Covid"
+                },
+                {
+                    "text": "COVID 10 updated"
+                },
+                {
+                    "text": "COVID_19"
+                },
+                {
+                    "text": "Covid information"
+                },
+                {
+                    "text": "Covid updated"
+                },
+                {
+                    "text": "CVOID"
+                },
+                {
+                    "text": "CVOID 19 ELTE"
+                },
+                {
+                    "text": "CVOID 19 ELTE NEWS"
+                },
+                {
+                    "text": "CVOID ELTE"
+                },
+                {
+                    "text": "CVOID ELTE NEWS"
+                },
+                {
+                    "text": "CVOID NEWS"
+                },
+                {
+                    "text": "The covid situation"
+                },
+                {
+                    "text": "What is the covid 19 situation updates"
+                },
+                {
+                    "text": "What is the covid 19 updates"
+                },
+                {
+                    "text": "What is the covid updates"
+                },
+                {
+                    "text": "What is the current situation of COVID 19 at the university?"
+                },
+                {
+                    "text": "What is the situation of COVID 19 at the university?"
+                }
+            ],
+            "description": "CVOID 19 ELTE NEWS "
+        },
+        {
+            "intent": "Documents_Quaestura",
+            "examples": [
+                {
+                    "text": "Certificate of Student Status"
+                },
+                {
+                    "text": "Complaint about transferred yet unreceived inpayment"
+                },
+                {
+                    "text": "Delivery of the Student Card (by post)"
+                },
+                {
+                    "text": "Delivery of the Temporary Student Certificate (by post)"
+                },
+                {
+                    "text": "Fees and Funds"
+                },
+                {
+                    "text": "Health Insurance Card request for foreigners"
+                },
+                {
+                    "text": "I need an active student certificate"
+                },
+                {
+                    "text": "I need an active student certificate in english"
+                },
+                {
+                    "text": "I need an active student certificate in hungarian"
+                },
+                {
+                    "text": "I need a student active status"
+                },
+                {
+                    "text": "I need a student certificate"
+                },
+                {
+                    "text": "I need a student status"
+                },
+                {
+                    "text": "I need my student card"
+                },
+                {
+                    "text": "I need to activate my student card"
+                },
+                {
+                    "text": "I want a temporary active student certificate"
+                },
+                {
+                    "text": "online administration"
+                },
+                {
+                    "text": "Other questions regarding the Student Card"
+                },
+                {
+                    "text": "Payment"
+                },
+                {
+                    "text": "Quaestura"
+                },
+                {
+                    "text": "Quaestura related documents"
+                },
+                {
+                    "text": "Questora office"
+                },
+                {
+                    "text": "Student Card"
+                },
+                {
+                    "text": "student card approval"
+                },
+                {
+                    "text": "student card document"
+                },
+                {
+                    "text": "student card paper"
+                },
+                {
+                    "text": "student card receiving"
+                },
+                {
+                    "text": "Student Loan"
+                },
+                {
+                    "text": "Tax and Income Certificate"
+                },
+                {
+                    "text": "temporary active certificate"
+                },
+                {
+                    "text": "temporary active student certificate"
+                },
+                {
+                    "text": "temporary active student status"
+                }
+            ],
+            "description": "Quaestura related documents"
+        },
+        {
             "intent": "ELTE",
             "examples": [
                 {
@@ -265,7 +421,61 @@
             },
             "conditions": "#Hello",
             "dialog_node": "node_6_1632933078639",
+            "previous_sibling": "node_9_1634045908105"
+        },
+        {
+            "type": "standard",
+            "title": "COVID_19",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "To check the most updated information regarding COVID-19 within the university please check the article that contains the steps taken by the University and other announcements via the link below"
+                            },
+                            {
+                                "text": "https://www.elte.hu/en/coronavirus"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "multiline"
+                    },
+                    {
+                        "source": "https://media.giphy.com/media/BEhaTU9kOHaqKKLHC5/giphy.gif",
+                        "response_type": "image"
+                    }
+                ]
+            },
+            "conditions": "#COVID_19",
+            "dialog_node": "node_8_1634044803485",
             "previous_sibling": "Welcome"
+        },
+        {
+            "type": "standard",
+            "title": "Documents Quaestura ",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "If you need any administrative document from Quaestura office please press the link below and choose the desired document "
+                            },
+                            {
+                                "text": "https://qter.elte.hu/Ugy.aspx"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "multiline"
+                    },
+                    {
+                        "source": "https://media.giphy.com/media/xUPGcCEoY4LKQGOrFm/giphy.gif",
+                        "response_type": "image"
+                    }
+                ]
+            },
+            "conditions": "#Documents_Quaestura",
+            "dialog_node": "node_9_1634045908105",
+            "previous_sibling": "node_8_1634044803485"
         },
         {
             "type": "standard",
