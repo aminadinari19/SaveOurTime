@@ -8,6 +8,7 @@ Oct. 21st, 2021, at 13:30 I finished a few new UCs and added them to the main SO
 
 Oct. 27th, 2021, at 1:05 I finished a 5 new UCs and added them to SOT.
 
+
 Timi:
 
 Created the email sender which can be used to send emails to the clients when they book the appointment.
