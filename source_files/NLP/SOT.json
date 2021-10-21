@@ -2661,6 +2661,35 @@
             "conditions": "#GoodBye || #General_Ending",
             "dialog_node": "node_9_1635194992032",
             "previous_sibling": "node_7_1635194567318"
+
+            "previous_sibling": "Welcome"
+        },
+        {
+            "type": "standard",
+            "title": "Documents Quaestura ",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "If you need any administrative document from Quaestura office please press the link below and choose the desired document "
+                            },
+                            {
+                                "text": "https://qter.elte.hu/Ugy.aspx"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "multiline"
+                    },
+                    {
+                        "source": "https://media.giphy.com/media/xUPGcCEoY4LKQGOrFm/giphy.gif",
+                        "response_type": "image"
+                    }
+                ]
+            },
+            "conditions": "#Documents_Quaestura",
+            "dialog_node": "node_9_1634045908105",
+            "previous_sibling": "node_8_1634044803485"
         },
         {
             "type": "standard",
