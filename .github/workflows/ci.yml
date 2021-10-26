@@ -35,7 +35,6 @@ jobs:
         #if: success()
         uses: actions/upload-artifact@v1
         with:
-          working-directory: 
           name: deploy_dist
           path: ./source_files/frontend/dist
 
@@ -43,6 +42,5 @@ jobs:
         #if: success()
         uses: actions/upload-artifact@v1
         with:
-          working-directory: ./source_files/frontend
           name: deploy_coverage
-          path: coverage
+          path: ./source_files/frontend/coverage
