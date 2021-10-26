@@ -39,7 +39,7 @@ jobs:
           path: ./source_files/frontend/dist
 
       - name: Archive code coverage result
-        #if: success()
+        if: success()
         uses: actions/upload-artifact@v1
         with:
           name: deploy_coverage
