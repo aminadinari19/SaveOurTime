@@ -23,20 +23,18 @@ jobs:
       - name: Build
         run: npm run build:ci
         working-directory: ./source_files/frontend
-
+        
+      - name: Archive build
+        if: success()
+        uses: actions/upload-artifact@v1
+        with:
+          name: deploy_dist
+          path: ./source_files/frontend/dist  
 
       - name: Test
         run: npm run test:ci
         working-directory: ./source_files/frontend
-        continue-on-error: true
-
-
-      - name: Archive build
-        #if: success()
-        uses: actions/upload-artifact@v1
-        with:
-          name: deploy_dist
-          path: ./source_files/frontend/dist
+        #continue-on-error: true
 
       - name: Archive code coverage result
         if: success()
