@@ -1,0 +1,48 @@
+name: CI
+
+on: push
+
+jobs:
+  build:
+    name: Build and Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Use Node 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./source_files/frontend
+
+      - name: Build
+        run: npm run build:ci
+        working-directory: ./source_files/frontend
+
+
+      - name: Test
+        run: npm run test:ci
+        working-directory: ./source_files/frontend
+        continue-on-error: true
+
+
+      - name: Archive build
+        #if: success()
+        uses: actions/upload-artifact@v1
+        with:
+          working-directory: 
+          name: deploy_dist
+          path: ./source_files/frontend/dist
+
+      - name: Archive code coverage result
+        #if: success()
+        uses: actions/upload-artifact@v1
+        with:
+          working-directory: ./source_files/frontend
+          name: deploy_coverage
+          path: coverage
