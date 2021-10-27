@@ -4,7 +4,7 @@
       region: "au-syd", // The region your integration is hosted in.
       serviceInstanceID: "f67eb569-38ec-47c9-871c-cd01695ecdf5", // The ID of your service instance.
       onLoad: function(instance) { instance.render();
-    }
+  }
 };
   setTimeout(function(){
     const t=document.createElement('script');
