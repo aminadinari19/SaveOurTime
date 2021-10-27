@@ -1,4 +1,4 @@
-# SaveOurTime
+# SaveOurTime [![CI](https://github.com/odiisus/SaveOurTime/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/odiisus/SaveOurTime/actions/workflows/ci.yml)
 
 Rodolf:
 
