@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bg{
+    z-index: -1;
+    position: absolute;
+    width: 98.8%;
+    height: 70%;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Poppins' , sans-serif;
+    background-color: rgb(54, 49, 58);
+}
+.logo{
+    color: rgb(247, 247, 247);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 17px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links a{
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.bar{
+    display: none;
+    cursor: pointer;
+}
+
+.bar div{
+    width:25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+@media screen and (max-width:1024px) {
+    .nav-links{
+        width: 60%;
+    }
+}
+@media screen and (max-width:768px) {
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+        position:absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: rgb(54, 49, 58);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+
+    .bar{
+        display: block;
+    }
+}
+
+.ani-text{
+    color: rgb(255, 255, 255);
+    text-shadow: dimgray;
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background: rgba(104, 114, 119, 0.438);
+    box-shadow: 0 5px 15px rgba(0,0,0,.25);
+    padding: 0 40px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.line{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+    
+}
+
+.line:first-child{
+    animation: anim 12s infinite;
+}
+@keyframes anim {
+ 0%{
+     margin-top: 0;
+ }   
+ 16%{
+    margin-top: -60px;
+}   
+33%{
+    margin-top: -120px;
+}   
+50%{
+    margin-top: -180px;
+}   
+66%{
+    margin-top: -120px;
+} 
+82%{
+    margin-top: -60px;
+}   
+  
+}
+.elte{
+    position: absolute;
+    top:100%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 40%;
+ 
+
+}
