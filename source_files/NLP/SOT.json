@@ -1,6 +1,11 @@
 {
     "intents": [
         {
+            "intent": "A-Bot_Scope_Presentation",
+            "examples": [],
+            "description": "A - Bot scope presentation"
+        },
+        {
             "intent": "COVID_19",
             "examples": [
                 {
@@ -56,6 +61,114 @@
                 }
             ],
             "description": "CVOID 19 ELTE NEWS "
+        },
+        {
+            "intent": "DEV",
+            "examples": [
+                {
+                    "text": "Could you tell me who exactly programmed you?"
+                },
+                {
+                    "text": "DEV"
+                },
+                {
+                    "text": "Developers"
+                },
+                {
+                    "text": "DEVS"
+                },
+                {
+                    "text": "I need you to tell me what or who made you?"
+                },
+                {
+                    "text": "I want to know who made you"
+                },
+                {
+                    "text": "I want to speak to your creator."
+                },
+                {
+                    "text": "I wonder where you come from."
+                },
+                {
+                    "text": "I would love to know who made you."
+                },
+                {
+                    "text": "Name me the name of your maker"
+                },
+                {
+                    "text": "Say your creator's name"
+                },
+                {
+                    "text": "So if you're a bot, then that means that someone had to program you."
+                },
+                {
+                    "text": "So if you're a robot, that means someone made you."
+                },
+                {
+                    "text": "Talk about the one who created you"
+                },
+                {
+                    "text": "Tell me the name of your maker now."
+                },
+                {
+                    "text": "Tell me who created you."
+                },
+                {
+                    "text": "what is the company that developed you?"
+                },
+                {
+                    "text": "What is the name of the programmer that made you?"
+                },
+                {
+                    "text": "Where exactly did you come from?"
+                },
+                {
+                    "text": "Who are the developers who created you?"
+                },
+                {
+                    "text": "Who are the developers who developed you?"
+                },
+                {
+                    "text": "Who are the founders"
+                },
+                {
+                    "text": "Who are the programmers who created you?"
+                },
+                {
+                    "text": "Who are the programmers who developed you?"
+                },
+                {
+                    "text": "who built you?"
+                },
+                {
+                    "text": "Who coded you?"
+                },
+                {
+                    "text": "Who created you?"
+                },
+                {
+                    "text": "who designed you?"
+                },
+                {
+                    "text": "Who exactly programmed you?"
+                },
+                {
+                    "text": "Who is your creator?"
+                },
+                {
+                    "text": "who is your father or your creator?"
+                },
+                {
+                    "text": "Who made you?"
+                },
+                {
+                    "text": "Who programmed you?"
+                },
+                {
+                    "text": "you were designed by someone?"
+                }
+            ],
+            "description": "Developers"
         },
         {
             "intent": "Documents_Quaestura",
@@ -190,6 +303,141 @@
             "description": "What is ELTE"
         },
         {
+            "intent": "GoodBye",
+            "examples": [
+                {
+                    "text": "Adiós"
+                },
+                {
+                    "text": "arrivederci"
+                },
+                {
+                    "text": "Bye"
+                },
+                {
+                    "text": "Bye bot"
+                },
+                {
+                    "text": "Bye Bye"
+                },
+                {
+                    "text": "bye,bye"
+                },
+                {
+                    "text": "Byebye"
+                },
+                {
+                    "text": "Bye Bye SOT"
+                },
+                {
+                    "text": "Bye, see you"
+                },
+                {
+                    "text": "Bye Sot"
+                },
+                {
+                    "text": "Catch you later"
+                },
+                {
+                    "text": "Cya"
+                },
+                {
+                    "text": "enjoy the rest of the day"
+                },
+                {
+                    "text": "Goodbye"
+                },
+                {
+                    "text": "goodbye I'm[leaving]"
+                },
+                {
+                    "text": "good night"
+                },
+                {
+                    "text": "have a great day"
+                },
+                {
+                    "text": "Have a great evening"
+                },
+                {
+                    "text": "have a great night"
+                },
+                {
+                    "text": "Have a nice evening"
+                },
+                {
+                    "text": "I gotta go, bye."
+                },
+                {
+                    "text": "I gotta go, see ya."
+                },
+                {
+                    "text": "I'm getting out of here"
+                },
+                {
+                    "text": "I'm going, bye"
+                },
+                {
+                    "text": "I'm going, see ya"
+                },
+                {
+                    "text": "Ok bye"
+                },
+                {
+                    "text": "See ya"
+                },
+                {
+                    "text": "See ya bot"
+                },
+                {
+                    "text": "See ya SOT"
+                },
+                {
+                    "text": "see you"
+                },
+                {
+                    "text": "See you !"
+                },
+                {
+                    "text": "seeyou"
+                },
+                {
+                    "text": "See you another time"
+                },
+                {
+                    "text": "See you around"
+                },
+                {
+                    "text": "See you, bye"
+                },
+                {
+                    "text": "See you next time"
+                },
+                {
+                    "text": "see you soon"
+                },
+                {
+                    "text": "Well bye"
+                },
+                {
+                    "text": "Well, Bye."
+                },
+                {
+                    "text": "Well, I'll see you later."
+                },
+                {
+                    "text": "Well, I'm going. Bye."
+                },
+                {
+                    "text": "well, see ya"
+                },
+                {
+                    "text": "Well, see you then"
+                }
+            ],
+            "description": ""
+        },
+        {
             "intent": "Hello",
             "examples": [
                 {
@@ -314,6 +562,234 @@
                 }
             ],
             "description": ""
+        },
+        {
+            "intent": "Thank_you",
+            "examples": [
+                {
+                    "text": "All right, thank you."
+                },
+                {
+                    "text": "all seems okay now, thanks a lot for your quick help!"
+                },
+                {
+                    "text": "Got it, thank you."
+                },
+                {
+                    "text": "Gracias"
+                },
+                {
+                    "text": "great news"
+                },
+                {
+                    "text": "great thanks"
+                },
+                {
+                    "text": "Great. Thanks"
+                },
+                {
+                    "text": "great will do"
+                },
+                {
+                    "text": "helpful"
+                },
+                {
+                    "text": "I'll manage thanks for your help."
+                },
+                {
+                    "text": "I'm grateful to you"
+                },
+                {
+                    "text": "May God bless you"
+                },
+                {
+                    "text": "My bests and have a good day."
+                },
+                {
+                    "text": "Okay, I understand. Thank you very much."
+                },
+                {
+                    "text": "Okay, thank you for your answers."
+                },
+                {
+                    "text": "Ok. Thank you so much for your assistance"
+                },
+                {
+                    "text": "ok Thank you very much"
+                },
+                {
+                    "text": "Perfect. Thank you."
+                },
+                {
+                    "text": "Thanks for the answer"
+                },
+                {
+                    "text": "Thanks for your great advice."
+                },
+                {
+                    "text": "Thanks for your great help."
+                },
+                {
+                    "text": "Thanks for your great insight."
+                },
+                {
+                    "text": "Thanks for your great lights."
+                },
+                {
+                    "text": "Thanks for your great time."
+                },
+                {
+                    "text": "thanks good evening ;)"
+                },
+                {
+                    "text": "Thanks so much"
+                },
+                {
+                    "text": "Thanks, this is the one I'm looking for."
+                },
+                {
+                    "text": "thank you"
+                },
+                {
+                    "text": "Thank you :)"
+                },
+                {
+                    "text": "Thank you a lot"
+                },
+                {
+                    "text": "Thank you for your answer"
+                },
+                {
+                    "text": "thank you for your answer. Have a nice day"
+                },
+                {
+                    "text": "Thank you for your precious time."
+                },
+                {
+                    "text": "Thank you for your valuable information."
+                },
+                {
+                    "text": "Thank you. I hope there's no wait."
+                },
+                {
+                    "text": "thank you very much"
+                },
+                {
+                    "text": "Thx"
+                },
+                {
+                    "text": "tks"
+                },
+                {
+                    "text": "tnx a lot"
+                },
+                {
+                    "text": "You're awesome"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "Yes",
+            "examples": [
+                {
+                    "text": "ah ok.."
+                },
+                {
+                    "text": "All right"
+                },
+                {
+                    "text": "Alright !"
+                },
+                {
+                    "text": "Indeed...."
+                },
+                {
+                    "text": "Nice"
+                },
+                {
+                    "text": "of course"
+                },
+                {
+                    "text": "Of course, of course"
+                },
+                {
+                    "text": "OK"
+                },
+                {
+                    "text": "Ok !"
+                },
+                {
+                    "text": "Ok 👍"
+                },
+                {
+                    "text": "ok..."
+                },
+                {
+                    "text": "Okay...."
+                },
+                {
+                    "text": "Okay. Okay."
+                },
+                {
+                    "text": "ok cool"
+                },
+                {
+                    "text": "ok, nice"
+                },
+                {
+                    "text": "ok perfect"
+                },
+                {
+                    "text": "ok then"
+                },
+                {
+                    "text": "perfect then"
+                },
+                {
+                    "text": "So cool"
+                },
+                {
+                    "text": "sure"
+                },
+                {
+                    "text": "understood !"
+                },
+                {
+                    "text": "Well perfect"
+                },
+                {
+                    "text": "yeah !"
+                },
+                {
+                    "text": "Yep"
+                },
+                {
+                    "text": "YES"
+                },
+                {
+                    "text": "yes !"
+                },
+                {
+                    "text": "Yes, I know. I know."
+                },
+                {
+                    "text": "yes please"
+                },
+                {
+                    "text": "yes yes"
+                },
+                {
+                    "text": "yup"
+                },
+                {
+                    "text": "yup ok then"
+                },
+                {
+                    "text": "yupyes !"
+                }
+            ],
+            "description": ""
         }
     ],
     "entities": [],
@@ -402,6 +878,29 @@
         },
         {
             "type": "standard",
+            "title": "Thank you",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "Glad I could help! 😄"
+                            },
+                            {
+                                "text": "What else can I do for you?"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "multiline"
+                    }
+                ]
+            },
+            "conditions": "#Thank_you",
+            "dialog_node": "node_1_1635194004858",
+            "previous_sibling": "Welcome"
+        },
+        {
+            "type": "standard",
             "title": "Hello",
             "output": {
                 "generic": [
@@ -422,6 +921,26 @@
             "conditions": "#Hello",
             "dialog_node": "node_6_1632933078639",
             "previous_sibling": "node_9_1634045908105"
+        },
+        {
+            "type": "standard",
+            "title": "YES",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "Sure! Let me know if you have any other questions, I can help with 🤗 "
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "sequential"
+                    }
+                ]
+            },
+            "conditions": "#Yes",
+            "dialog_node": "node_7_1635194567318",
+            "previous_sibling": "node_1_1635194004858"
         },
         {
             "type": "standard",
@@ -448,7 +967,33 @@
             },
             "conditions": "#COVID_19",
             "dialog_node": "node_8_1634044803485",
-            "previous_sibling": "Welcome"
+            "previous_sibling": "node_8_1635189404064"
+        },
+        {
+            "type": "standard",
+            "title": "DEV",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "It's SOT's team!"
+                            },
+                            {
+                                "text": "You will find more information on the website, the About Us Page"
+                            },
+                            {
+                                "text": "I came from the hard work of a team of students with a bright future, come and discover them on the website"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "multiline"
+                    }
+                ]
+            },
+            "conditions": "#DEV",
+            "dialog_node": "node_8_1635189404064",
+            "previous_sibling": "node_9_1635194992032"
         },
         {
             "type": "standard",
@@ -476,6 +1021,26 @@
             "conditions": "#Documents_Quaestura",
             "dialog_node": "node_9_1634045908105",
             "previous_sibling": "node_8_1634044803485"
+        },
+        {
+            "type": "standard",
+            "title": "GoodBye",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "Goodbye to you too! 💁"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "sequential"
+                    }
+                ]
+            },
+            "conditions": "#GoodBye",
+            "dialog_node": "node_9_1635194992032",
+            "previous_sibling": "node_7_1635194567318"
         },
         {
             "type": "standard",
