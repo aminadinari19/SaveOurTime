@@ -19,10 +19,12 @@ nav{
     background-color: rgb(54, 49, 58);
 }
 .logo{
-    color: rgb(247, 247, 247);
+    color:white;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 17px;
+    font-size: 30px;
+    font-family: 'Baloo 2', cursive;
+    text-decoration: none;
 }
 
 .nav-links{
