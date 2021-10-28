@@ -13,25 +13,15 @@
       <div class="logo"><h1>Save Our Time</h1></div>
       
         <ul class="nav-links">
-          <li><a href="faq/faq.component.html">FAQ</a></li>
-          <li><a href="appoint/appoint.component.html">Appointment</a></li>
-          <li><a href="aboutpage/aboutpage.component.html">About Us</a></li>
+          <li><a routerLink="./faq">FAQ</a></li>
+          <li><a routerLink="./appoint">Appointment</a></li>
+          <li><a routerLink="./about">About Us</a></li>
           
         </ul>
-      <div class="bar">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-    </nav>
-    <img class="bg" src="../assets/bg.jpg">
-    <div class="ani-text">
-      <div class="line">Welcome</div>
-      <div class="line">To the ELTE</div>
-      <div class="line">Student support Chatbot</div>
       
-    </div>
-    
-    <img class="elte" src="../assets/elte.png">
+    </nav>
+    <p>
+    <router-outlet></router-outlet>
+    </p>
 </body>
 </html>
