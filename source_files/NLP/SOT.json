@@ -1317,6 +1317,210 @@
                     "text": "arsehole"
                 },
                 {
+                    "text": "Bye bot"
+                },
+                {
+                    "text": "Bye Bye"
+                },
+                {
+                    "text": "bye,bye"
+                },
+                {
+                    "text": "Byebye"
+                },
+                {
+                    "text": "Bye Bye SOT"
+                },
+                {
+                    "text": "Bye, see you"
+                },
+                {
+                    "text": "Bye Sot"
+                },
+                {
+                    "text": "Catch you later"
+                },
+                {
+                    "text": "Cya"
+                },
+                {
+                    "text": "enjoy the rest of the day"
+                },
+                {
+                    "text": "Goodbye"
+                },
+                {
+                    "text": "goodbye I'm[leaving]"
+                },
+                {
+                    "text": "good night"
+                },
+                {
+                    "text": "have a great day"
+                },
+                {
+                    "text": "Have a great evening"
+                },
+                {
+                    "text": "have a great night"
+                },
+                {
+                    "text": "Have a nice evening"
+                },
+                {
+                    "text": "I gotta go, bye."
+                },
+                {
+                    "text": "I gotta go, see ya."
+                },
+                {
+                    "text": "I'm getting out of here"
+                },
+                {
+                    "text": "I'm going, bye"
+                },
+                {
+                    "text": "I'm going, see ya"
+                },
+                {
+                    "text": "Ok bye"
+                },
+                {
+                    "text": "See ya"
+                },
+                {
+                    "text": "See ya bot"
+                },
+                {
+                    "text": "See ya SOT"
+                },
+                {
+                    "text": "see you"
+                },
+                {
+                    "text": "See you !"
+                },
+                {
+                    "text": "seeyou"
+                },
+                {
+                    "text": "See you another time"
+                },
+                {
+                    "text": "See you around"
+                },
+                {
+                    "text": "See you, bye"
+                },
+                {
+                    "text": "See you next time"
+                },
+                {
+                    "text": "see you soon"
+                },
+                {
+                    "text": "Well bye"
+                },
+                {
+                    "text": "Well, Bye."
+                },
+                {
+                    "text": "Well, I'll see you later."
+                },
+                {
+                    "text": "Well, I'm going. Bye."
+                },
+                {
+                    "text": "well, see ya"
+                },
+                {
+                    "text": "Well, see you then"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "Hello",
+            "examples": [
+                {
+                    "text": "Buonjour"
+                },
+                {
+                    "text": "Ciao"
+                },
+                {
+                    "text": "Ciaoo"
+                },
+                {
+                    "text": "Ciaooo"
+                },
+                {
+                    "text": "Guten"
+                },
+                {
+                    "text": "Guten Morgan"
+                },
+                {
+                    "text": "Hallo"
+                },
+                {
+                    "text": "Heeey"
+                },
+                {
+                    "text": "Heey"
+                },
+                {
+                    "text": "Hello"
+                },
+                {
+                    "text": "Hey"
+                },
+                {
+                    "text": "Hi"
+                },
+                {
+                    "text": "hola"
+                },
+                {
+                    "text": "Salve"
+                },
+                {
+                    "text": "Szia"
+                },
+                {
+                    "text": "Sziaa"
+                },
+                {
+                    "text": "Sziastok"
+                },
+                {
+                    "text": "Sziasztok"
+                },
+                {
+                    "text": "Sziaztok"
+                },
+                {
+                    "text": "Sziia"
+                },
+                {
+                    "text": "اهلا"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "Insults",
+            "examples": [
+                {
+                    "text": "A7a"
+                },
+                {
+                    "text": "arse"
+                },
+                {
+                    "text": "arsehole"
+                },
+                {
                     "text": "arslehole"
                 },
                 {
@@ -2178,6 +2382,124 @@
                     {
                         "values": [
                             {
+                                "text": "I am sorry for the inconvenience 😞"
+                            },
+                            {
+                                "text": "I really wish I could help you, you can try asking me another question, or you can leave feedback for my developer from the report page on the website"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "multiline"
+                    }
+                ]
+            },
+            "conditions": "#Insults || #General_Negative_Feedback",
+            "dialog_node": "node_2_1635451076315",
+            "previous_sibling": "node_6_1635452892869"
+        },
+        {
+            "type": "standard",
+            "title": "Positive feedback",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "I am really delighted that you are satisfied with my service 😊 "
+                            },
+                            {
+                                "text": "Can I help you with anything else? 😃"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "multiline"
+                    }
+                ]
+            },
+            "conditions": "#DEV && #General_About_You",
+            "dialog_node": "node_8_1635189404064",
+            "previous_sibling": "node_9_1635194992032"
+        },
+        {
+            "type": "standard",
+            "title": "YES",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "Dear student, please be sure that all the conversations you have here with me is fully secure, and it is a free area you can ask/enquire about anything related to ELTE 😃"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "sequential"
+                    }
+                ]
+            },
+            "conditions": "#General_Security_Assurance",
+            "dialog_node": "node_2_1635452768883",
+            "previous_sibling": "node_3_1635453020298"
+        },
+        {
+            "type": "standard",
+            "title": "No Human",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "My developers created me to be a 1 to 1 chatbot, without any human interaction 🧍🚫"
+                            },
+                            {
+                                "text": "I love humans don't get me wrong, but I am faster than them  😎 😎"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "multiline"
+                    }
+                ]
+            },
+            "conditions": "#General_Connect_to_Agent",
+            "dialog_node": "node_3_1635453020298",
+            "previous_sibling": "Welcome"
+        },
+        {
+            "type": "standard",
+            "title": "Joke",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "How did the robot get across the river? In a ro-boat ⛵"
+                            },
+                            {
+                                "text": "What music do robots like? Heavy metal 🎵🎵"
+                            },
+                            {
+                                "text": "Why did the robot go to the bank 🏦 ? He'd spent all his cache."
+                            },
+                            {
+                                "text": "What restaurant 🍔 did the robot go to? Megabytes."
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "random"
+                    }
+                ]
+            },
+            "conditions": "#Joke || #General_Jokes",
+            "dialog_node": "node_4_1635452006053",
+            "previous_sibling": "node_2_1635451076315"
+        },
+        {
+            "type": "standard",
+            "title": "Hello",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
                                 "text": "Hi"
                             },
                             {
@@ -2212,9 +2534,11 @@
                     }
                 ]
             },
-            "conditions": "#DEV && #General_About_You",
-            "dialog_node": "node_8_1635189404064",
-            "previous_sibling": "node_9_1635194992032"
+            "conditions": "#GoodBye && #General_Ending",
+            "dialog_node": "node_9_1635194992032",
+            "previous_sibling": "node_7_1635194567318"
+
+            "previous_sibling": "Welcome"
         },
         {
             "type": "standard",
@@ -2285,7 +2609,7 @@
                     }
                 ]
             },
-            "conditions": "#GoodBye && #General_Ending",
+            "conditions": "#GoodBye || #General_Ending",
             "dialog_node": "node_9_1635194992032",
             "previous_sibling": "node_7_1635194567318"
 
