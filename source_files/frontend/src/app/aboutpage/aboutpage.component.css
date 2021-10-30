@@ -1,6 +1,10 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Baloo 2', cursive;
+  text-decoration: none;
     margin: 0;
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: 95% 90%;
   }
   
   html {
@@ -10,6 +14,7 @@ body {
   .img-wrap {
     width: 20%;
     margin-left: 10%;
+    background: rgba(204, 204, 204, 0);
   }
   
   .img-wrap img {
@@ -28,14 +33,15 @@ body {
   .about-section {
     padding: 50px;
     text-align: center;
-    text-shadow: 0 0 10px rgb(10, 10, 10);
-    background: rgba(0, 0, 0, 0.3);
-    color: white;
+    
+   
+    color: rgb(0, 0, 0);
   }
   
   .img-wrap1 {
     width: 20%;
     margin-left: 70%;
+    background: rgba(204, 204, 204, 0);
   }
   
   .img-wrap1 img {
@@ -48,6 +54,7 @@ body {
   .img-wrap2 {
     width: 20%;
     margin-left: 10%;
+    background: rgba(204, 204, 204, 0);
   }
   
   .img-wrap2 img {
@@ -59,6 +66,7 @@ body {
   .img-wrap3 {
     width: 20%;
     margin-left: 70%;
+    background: rgba(204, 204, 204, 0);
   }
 
   .img-wrap3 img {
@@ -75,6 +83,8 @@ body {
     left: 35%;
     top: 60%;
     color: rgb(0, 0, 0);
+    background: rgba(204, 204, 204, 0);
+    
   }
   
   .amina-text {
@@ -84,6 +94,7 @@ body {
     left: 50%;
     top: 110%;
     color: rgb(0, 0, 0);
+    background: rgba(204, 204, 204, 0);
   }
   
   .odii-text {
@@ -93,6 +104,7 @@ body {
     left: 35%;
     top: 148%;
     color: rgb(0, 0, 0);
+    background: rgba(204, 204, 204, 0);
   }
   .tim-text {
     margin: 0;
@@ -101,13 +113,14 @@ body {
     left: 50%;
     top: 200%;
     color: rgb(0, 0, 0);
+    background: rgba(204, 204, 204, 0);
   }
   
   .bg1 {
     z-index: -1;
     position: absolute;
-    width: 100%;
-    height: 200%;
+    width: 720px;
+    height: 1080px;
     background-size: cover;
   }
   
