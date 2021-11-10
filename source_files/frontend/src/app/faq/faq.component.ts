@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FAQComponent implements OnInit {
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    null;
   }
 
 }

@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutpageComponent implements OnInit {
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    null;
   }
 
 }
