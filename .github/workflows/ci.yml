@@ -52,8 +52,6 @@ jobs:
       - call npm i @typescript-eslint/parser --save-dev
       - call npm i @typescript-eslint/eslint-plugin --save-dev
       - call npm i eslint-plugin-security --save-dev
-        script:
-      - node node_modules\eslint\bin\eslint.js --ext .js,.jsx,.ts,.tsx src/
         allow_failure: true
         working-directory: ./source_files/frontend
         #continue-on-error: true  
