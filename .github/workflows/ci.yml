@@ -41,7 +41,7 @@ jobs:
         #continue-on-error: true
         
       - name: ESLint
-        run: ./node_modules/.bin/eslint **/*.js
+        run: ./node_modules/.bin/eslint . ./**/*.js
         working-directory: ./source_files/frontend
 
       - name: Archive code coverage result
