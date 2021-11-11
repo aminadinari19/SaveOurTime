@@ -41,7 +41,7 @@ jobs:
         #continue-on-error: true
         
       - name: ESLint
-        - uses: stefanoeb/eslint-action@1.0.2
+        uses: stefanoeb/eslint-action@1.0.2
         with:
           files: ./source_files/frontend
 
