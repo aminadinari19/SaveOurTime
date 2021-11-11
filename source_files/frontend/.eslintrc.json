@@ -17,6 +17,9 @@
     "plugins": [
         "@typescript-eslint"
     ],
+    "ignorePatterns": [
+        "**/*.js"
+    ],
     "rules": {
         "@typescript-eslint/no-var-requires": 0
     }
