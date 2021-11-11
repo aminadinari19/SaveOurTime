@@ -39,17 +39,11 @@ jobs:
         run: npm run test:ci
         working-directory: ./source_files/frontend
         #continue-on-error: true
+        
+        name: ESLint
+        - uses: stefanoeb/eslint-action@1.0.2
+          working-directory: ./source_files/frontend
 
-      - name: Lint
-        image: node
-        run:
-      - call npm i -g eslint-cli
-      - call npm i eslint --save-dev
-      - call npm i @typescript-eslint/parser --save-dev
-      - call npm i @typescript-eslint/eslint-plugin --save-dev
-      - call npm i eslint-plugin-security --save-dev
-      - node node_modules\eslint\bin\eslint.js --ext .js,.jsx,.ts,.tsx src/
-        working-directory: ./source_files/frontend
 
       - name: Archive code coverage result
         if: success()
