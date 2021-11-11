@@ -42,6 +42,21 @@
                     "text": "CVOID NEWS"
                 },
                 {
+                    "text": "Do we have to attend classes online?"
+                },
+                {
+                    "text": "Do we have to go to university in person?"
+                },
+                {
+                    "text": "Is the university going to be offline?"
+                },
+                {
+                    "text": "Is the university going to be online?"
+                },
+                {
+                    "text": "Is the university online?"
+                },
+                {
                     "text": "The covid situation"
                 },
                 {
@@ -58,12 +73,15 @@
                 },
                 {
                     "text": "What is the situation of COVID 19 at the university?"
+                },
+                {
+                    "text": "Will the University be online?"
                 }
             ],
             "description": "CVOID 19 ELTE NEWS "
         },
         {
-            "intent": "DEV",
+            "intent": "Developers",
             "examples": [
                 {
                     "text": "Could you tell me who exactly programmed you?"
@@ -153,10 +171,22 @@
                     "text": "Who exactly programmed you?"
                 },
                 {
+                    "text": "who is you dad?"
+                },
+                {
                     "text": "Who is your creator?"
                 },
                 {
+                    "text": "Who is your father"
+                },
+                {
                     "text": "who is your father or your creator?"
+                },
+                {
+                    "text": "Who is your mom?"
+                },
+                {
+                    "text": "who is your mother?"
                 },
                 {
                     "text": "Who made you?"
@@ -190,6 +220,12 @@
                 },
                 {
                     "text": "Health Insurance Card request for foreigners"
+                },
+                {
+                    "text": "How can I get my ID"
+                },
+                {
+                    "text": "How can I get my student car"
                 },
                 {
                     "text": "I need an active student certificate"
@@ -381,7 +417,13 @@
                     "text": "Do you have a list of things I can talk to you about?"
                 },
                 {
+                    "text": "Help me"
+                },
+                {
                     "text": "Help now"
+                },
+                {
+                    "text": "Help plz"
                 },
                 {
                     "text": "Hi, what do you do?"
@@ -403,6 +445,9 @@
                 },
                 {
                     "text": "I do not know what to ask"
+                },
+                {
+                    "text": "I need your help"
                 },
                 {
                     "text": "Is there anything you can help me with?"
@@ -438,7 +483,13 @@
                     "text": "What are you used for?"
                 },
                 {
+                    "text": "What are you useful for?"
+                },
+                {
                     "text": "What can I ask you to do?"
+                },
+                {
+                    "text": "What can you do for me?"
                 },
                 {
                     "text": "What do you do?"
@@ -594,7 +645,7 @@
                     "text": "Bye now"
                 },
                 {
-                    "text": "Catch you later"
+                    "text": "Fuck you"
                 },
                 {
                     "text": "Cya later"
@@ -621,7 +672,7 @@
                     "text": "Good. bye."
                 },
                 {
-                    "text": "Goodbye"
+                    "text": "jackass"
                 },
                 {
                     "text": "Go off"
@@ -1617,6 +1668,90 @@
             "description": ""
         },
         {
+            "intent": "My_Name_Is",
+            "examples": [
+                {
+                    "text": "I am Rodolf"
+                },
+                {
+                    "text": "My name IS Amina"
+                },
+                {
+                    "text": "My name is Angela"
+                },
+                {
+                    "text": "My name is Michel"
+                },
+                {
+                    "text": "My name is Odi"
+                },
+                {
+                    "text": "My name is Rodolf"
+                },
+                {
+                    "text": "My name is Zoltan"
+                },
+                {
+                    "text": "My nanme is"
+                },
+                {
+                    "text": "they call me ROdolf"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "Scholarship",
+            "examples": [
+                {
+                    "text": "Information about Erasmus scholarship"
+                },
+                {
+                    "text": "Information about my scholarship"
+                },
+                {
+                    "text": "Information about receive the Scholarship"
+                },
+                {
+                    "text": "Information about the scholarship"
+                },
+                {
+                    "text": "Information about the SH scholarship"
+                },
+                {
+                    "text": "Information about the young christian scholarship"
+                },
+                {
+                    "text": "receive my Scholarship"
+                },
+                {
+                    "text": "receive scholarship"
+                },
+                {
+                    "text": "receive the Scholarship"
+                },
+                {
+                    "text": "Scholarship"
+                },
+                {
+                    "text": "Scholarship for Christian Young People"
+                },
+                {
+                    "text": "stipendium hungaricum scholarship"
+                },
+                {
+                    "text": "When will I get my Scholarship"
+                },
+                {
+                    "text": "When will I get the money of the scholarship?"
+                },
+                {
+                    "text": "when will I receive my Scholarship"
+                }
+            ],
+            "description": ""
+        },
+        {
             "intent": "Thank_you",
             "examples": [
                 {
@@ -1972,7 +2107,7 @@
                     }
                 ]
             },
-            "conditions": "#Insults && #General_Negative_Feedback",
+            "conditions": "#Insults || #General_Negative_Feedback",
             "dialog_node": "node_2_1635451076315",
             "previous_sibling": "node_6_1635452892869"
         },
@@ -2044,131 +2179,32 @@
                     }
                 ]
             },
-            "conditions": "#Joke && #General_Jokes",
-            "dialog_node": "node_4_1635452006053",
-            "previous_sibling": "node_2_1635451076315"
-        },
-        {
-            "type": "standard",
-            "title": "Hello"
-        },
-        {
-            "type": "standard",
-            "title": "Insults",
-            "output": {
-                "generic": [
-                    {
-                        "values": [
-                            {
-                                "text": "I am sorry for the inconvenience 😞"
-                            },
-                            {
-                                "text": "I really wish I could help you, you can try asking me another question, or you can leave feedback for my developer from the report page on the website"
-                            }
-                        ],
-                        "response_type": "text",
-                        "selection_policy": "multiline"
-                    }
-                ]
-            },
-            "conditions": "#Insults || #General_Negative_Feedback",
-            "dialog_node": "node_2_1635451076315",
-            "previous_sibling": "node_6_1635452892869"
-        },
-        {
-            "type": "standard",
-            "title": "Positive feedback",
-            "output": {
-                "generic": [
-                    {
-                        "values": [
-                            {
-                                "text": "I am really delighted that you are satisfied with my service 😊 "
-                            },
-                            {
-                                "text": "Can I help you with anything else? 😃"
-                            }
-                        ],
-                        "response_type": "text",
-                        "selection_policy": "multiline"
-                    }
-                ]
-            },
-            "conditions": "#General_Positive_Feedback",
-            "dialog_node": "node_6_1635452892869",
-            "previous_sibling": "node_2_1635452768883"
-        },
-        {
-            "type": "standard",
-            "title": "YES",
-            "output": {
-                "generic": [
-                    {
-                        "values": [
-                            {
-                                "text": "Dear student, please be sure that all the conversations you have here with me is fully secure, and it is a free area you can ask/enquire about anything related to ELTE 😃"
-                            }
-                        ],
-                        "response_type": "text",
-                        "selection_policy": "sequential"
-                    }
-                ]
-            },
-            "conditions": "#General_Security_Assurance",
-            "dialog_node": "node_2_1635452768883",
-            "previous_sibling": "node_3_1635453020298"
-        },
-        {
-            "type": "standard",
-            "title": "No Human",
-            "output": {
-                "generic": [
-                    {
-                        "values": [
-                            {
-                                "text": "My developers created me to be a 1 to 1 chatbot, without any human interaction 🧍🚫"
-                            },
-                            {
-                                "text": "I love humans don't get me wrong, but I am faster than them  😎 😎"
-                            }
-                        ],
-                        "response_type": "text",
-                        "selection_policy": "multiline"
-                    }
-                ]
-            },
-            "conditions": "#General_Connect_to_Agent",
-            "dialog_node": "node_3_1635453020298",
-            "previous_sibling": "Welcome"
-        },
-        {
-            "type": "standard",
-            "title": "Joke",
-            "output": {
-                "generic": [
-                    {
-                        "values": [
-                            {
-                                "text": "How did the robot get across the river? In a ro-boat ⛵"
-                            },
-                            {
-                                "text": "What music do robots like? Heavy metal 🎵🎵"
-                            },
-                            {
-                                "text": "Why did the robot go to the bank 🏦 ? He'd spent all his cache."
-                            },
-                            {
-                                "text": "What restaurant 🍔 did the robot go to? Megabytes."
-                            }
-                        ],
-                        "response_type": "text",
-                        "selection_policy": "random"
-                    }
-                ]
-            },
             "conditions": "#Joke || #General_Jokes",
             "dialog_node": "node_4_1635452006053",
             "previous_sibling": "node_2_1635451076315"
+        },
+        {
+            "type": "standard",
+            "title": "Scholarship",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "Regarding the monthly allowance of the scholarship, you will usually get in on the 10th day of each month 💰"
+                            },
+                            {
+                                "text": "Also, please be reminded that it might come few days earlier/later"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "multiline"
+                    }
+                ]
+            },
+            "conditions": "#Scholarship",
+            "dialog_node": "node_5_1635618048986",
+            "previous_sibling": "node_9_1635194992032"
         },
         {
             "type": "standard",
@@ -2212,9 +2248,9 @@
                     }
                 ]
             },
-            "conditions": "#DEV && #General_About_You",
-            "dialog_node": "node_8_1635189404064",
-            "previous_sibling": "node_9_1635194992032"
+            "conditions": "#General_Positive_Feedback",
+            "dialog_node": "node_6_1635452892869",
+            "previous_sibling": "node_2_1635452768883"
         },
         {
             "type": "standard",
@@ -2235,6 +2271,48 @@
             "conditions": "#Yes",
             "dialog_node": "node_7_1635194567318",
             "previous_sibling": "node_1_1635194004858"
+        },
+        {
+            "type": "standard",
+            "title": "My_Name_Is",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "Nice meeting you 😊"
+                            },
+                            {
+                                "text": "Tell me how can I help you?"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "multiline"
+                    }
+                ]
+            },
+            "conditions": "#My_Name_Is",
+            "dialog_node": "node_7_1635615002045",
+            "previous_sibling": "node_7_1635618545047"
+        },
+        {
+            "type": "standard",
+            "title": "General Agent capabilities",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "You can ask me any administrative question related to ELTE and I will do my best to help you"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "sequential"
+                    }
+                ]
+            },
+            "conditions": "#General_Agent_Capabilities",
+            "dialog_node": "node_7_1635618545047"
         },
         {
             "type": "standard",
@@ -2285,11 +2363,9 @@
                     }
                 ]
             },
-            "conditions": "#GoodBye && #General_Ending",
-            "dialog_node": "node_9_1635194992032",
-            "previous_sibling": "node_7_1635194567318"
-
-            "previous_sibling": "Welcome"
+            "conditions": "#Developers || #General_About_You",
+            "dialog_node": "node_8_1635189404064",
+            "previous_sibling": "node_5_1635618048986"
         },
         {
             "type": "standard",
@@ -2360,8 +2436,9 @@
                     }
                 ]
             },
-            "conditions": "welcome && #General_Human_or_Bot && #General_Greetings && #General_Agent_Capabilities",
-            "dialog_node": "Welcome"
+            "conditions": "welcome || #General_Human_or_Bot || #General_Greetings",
+            "dialog_node": "Welcome",
+            "previous_sibling": "node_7_1635615002045"
         }
     ],
     "counterexamples": [],
