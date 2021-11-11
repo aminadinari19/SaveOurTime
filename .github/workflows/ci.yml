@@ -46,15 +46,14 @@ jobs:
 
       - name: Lint
         image: node
-        before_script:
+        run:
       - call npm i -g eslint-cli
       - call npm i eslint --save-dev
       - call npm i @typescript-eslint/parser --save-dev
       - call npm i @typescript-eslint/eslint-plugin --save-dev
       - call npm i eslint-plugin-security --save-dev
-        allow_failure: true
+      - node node_modules\eslint\bin\eslint.js --ext .js,.jsx,.ts,.tsx src/
         working-directory: ./source_files/frontend
-        #continue-on-error: true  
 
       - name: Archive code coverage result
         if: success()
