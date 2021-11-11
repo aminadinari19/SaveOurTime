@@ -44,7 +44,7 @@ jobs:
         run: ./node_modules/.bin/eslint . "./**/*.ts"
       
       - name: Compodocs
-        run: compodoc -p tsconfig.app.json
+        run: ./node_modules/.bin/compodoc -s
         working-directory: ./source_files/frontend
 
       - name: Archive code coverage result
