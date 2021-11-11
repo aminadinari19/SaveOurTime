@@ -42,8 +42,8 @@ jobs:
         
       - name: ESLint
         - uses: stefanoeb/eslint-action@1.0.2
-          working-directory: ./source_files/frontend
-
+        with:
+          files: ./source_files/frontend
 
       - name: Archive code coverage result
         if: success()
