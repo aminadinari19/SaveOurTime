@@ -40,7 +40,7 @@ jobs:
         working-directory: ./source_files/frontend
         #continue-on-error: true
         
-        name: ESLint
+      - name: ESLint
         - uses: stefanoeb/eslint-action@1.0.2
           working-directory: ./source_files/frontend
 
