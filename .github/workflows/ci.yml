@@ -42,8 +42,7 @@ jobs:
         
       - name: ESLint
         run: eslint . --ext .js,.jsx,.ts,.tsx
-        with:
-          files: ./source_files/frontend
+        working-directory: ./source_files/frontend
 
       - name: Archive code coverage result
         if: success()
