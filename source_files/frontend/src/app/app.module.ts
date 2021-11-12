@@ -6,7 +6,17 @@ import { AboutpageComponent } from './aboutpage/aboutpage.component';
 import { FAQComponent } from './faq/faq.component';
 import { AppointComponent } from './appoint/appoint.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { Routes } from '@angular/router'
 
+/**
+* Supported comment
+*/
+const routes: Routes = [
+  {path:'about', component: AboutpageComponent},
+  {path:'faq', component: FAQComponent},
+  {path:'appoint', component: AppointComponent},
+  {path:'', component:HomepageComponent}
+];
 
 @NgModule({
   declarations: [
