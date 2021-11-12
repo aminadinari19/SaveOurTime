@@ -10,7 +10,7 @@
     "generate-docs": "compodoc -p tsconfig.app.json",
     "serve-docs": "compodoc -s tsconfig.app.json",
     "test": "ng test",
-    "build:ci": "ng build --prod --sourceMap=false --base-href /YOUR_REPOSITORY_NAME_HERE/",
+    "build:ci": "ng build --prod --sourceMap=false --base-href /SaveOurTime/",
     "test:ci": "ng test --watch=false --browsers=ChromeHeadless --code-coverage --source-map true"
   },
   "private": true,
