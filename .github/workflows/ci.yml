@@ -43,7 +43,8 @@ jobs:
         #continue-on-error: true
         
       - name: ESLint
-        run: eslint --ext .ts 'src/**/*'
+        run: npm install eslint && eslint --ext .ts 'src/**/*'
+        working-directory: ./source_files/frontend
 
       - name: Compodocs
         run: npx compodoc -p tsconfig.app.json
