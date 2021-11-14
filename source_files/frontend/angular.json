@@ -108,9 +108,21 @@
               "./node_modules/uikit/dist/js/uikit-icons.min.js"
             ]
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "SOT"
+  "defaultProject": "SOT",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }
