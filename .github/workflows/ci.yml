@@ -42,7 +42,7 @@ jobs:
         #continue-on-error: true
         
       - name: ESLint
-        run: npm install -g eslint && eslint --init && eslint --ext .ts 'src/**/*'
+        run: npm install -g eslint  # && eslint --init && eslint --ext .ts 'src/**/*'
         working-directory: ./source_files/frontend
 
       - name: Compodocs
