@@ -43,7 +43,7 @@ jobs:
         
       - name: ESLint
         run: npm install -g eslint
-             npm run lint:ci
+             ng lint
         working-directory: ./source_files/frontend
 
       - name: Compodocs
