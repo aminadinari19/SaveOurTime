@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: npm install
              yarn install
-             npm install eslint --save-dev
+             npm instaill -g eslint
         working-directory: ./source_files/frontend
 
       - name: Build
@@ -43,7 +43,7 @@ jobs:
         #continue-on-error: true
         
       - name: ESLint
-        run: npm install eslint && eslint --ext .ts 'src/**/*'
+        run: eslint --ext .ts 'src/**/*'
         working-directory: ./source_files/frontend
 
       - name: Compodocs
