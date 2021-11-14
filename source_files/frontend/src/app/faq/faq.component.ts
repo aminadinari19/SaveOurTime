@@ -6,10 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./faq.component.css']
 })
 export class FAQComponent implements OnInit {
-
-  constructor() { }
-
   ngOnInit(): void {
+    null;
   }
 
 }
