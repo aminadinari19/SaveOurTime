@@ -18,6 +18,10 @@ module.exports = {
   "ignorePatterns": [
     '**/*.js',
     '**/*.html',
+    '**/*.jpg',
+    '**/*.ico',
+    '**/*.css',
+    '**/*.png',
   ],
   'rules': {
     '@typescript-eslint/no-var-requires': 1,
