@@ -42,7 +42,7 @@ jobs:
         #continue-on-error: true
         
       - name: ESLint
-        run: npm install eslint --save-dev && ./node_modules/.bin/eslint --init &7 npm run lint::ci
+        run: npm install eslint --save-dev && ./node_modules/.bin/eslint --init && ng lint
 
       - name: Compodocs
         run: npx compodoc -p tsconfig.app.json
