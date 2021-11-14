@@ -6,6 +6,7 @@ module.exports = {
     'node': true,
   },
   'extends': [
+    'google',
   ],
   'parser': '@typescript-eslint/parser',
   'parserOptions': {
@@ -21,6 +22,7 @@ module.exports = {
     '**/*.jpg',
     '**/*.ico',
     '**/*.css',
+    '**/*.png',
   ],
   'rules': {
     '@typescript-eslint/no-var-requires': 1,
