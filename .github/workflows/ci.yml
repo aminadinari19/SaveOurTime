@@ -42,7 +42,8 @@ jobs:
         #continue-on-error: true
         
       - name: ESLint
-        run: npm install eslint --save-dev && ng lint
+        run: npm install -g eslint
+             npm run lint:ci
         working-directory: ./source_files/frontend
 
       - name: Compodocs
