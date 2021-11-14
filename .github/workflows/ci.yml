@@ -42,8 +42,8 @@ jobs:
         #continue-on-error: true
         
       - name: ESLint
-        run: npm install eslint --save-dev && ng lint # ./node_modules/.bin/eslint . "./**/*.ts"
-      
+        run: npm install eslint --save-dev && ./node_modules/.bin/eslint --init &7 npm run lint::ci
+
       - name: Compodocs
         run: npx compodoc -p tsconfig.app.json
         working-directory: ./source_files/frontend
