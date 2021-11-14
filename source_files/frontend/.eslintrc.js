@@ -6,7 +6,6 @@ module.exports = {
     'node': true,
   },
   'extends': [
-    'google',
   ],
   'parser': '@typescript-eslint/parser',
   'parserOptions': {
