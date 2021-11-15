@@ -33,7 +33,9 @@
     "ts-jest": "^27.0.7",
     "tslib": "^2.3.0",
     "uikit": "^3.8.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "@angular/cli": "~12.2.8",
+    "@angular/compiler-cli": "~12.2.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.2.8",
@@ -42,8 +44,6 @@
     "@angular-eslint/eslint-plugin-template": "12.6.1",
     "@angular-eslint/schematics": "12.6.1",
     "@angular-eslint/template-parser": "12.6.1",
-    "@angular/cli": "~12.2.8",
-    "@angular/compiler-cli": "~12.2.0",
     "@compodoc/compodoc": "^1.1.15",
     "@types/jasmine": "~3.8.0",
     "@types/mocha": "^9.0.0",
