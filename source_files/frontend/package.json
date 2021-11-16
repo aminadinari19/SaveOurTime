@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "engines": {
     "node": "0.10.41",
-    "npm": "1.4.29"
+    "npm": "8.4.29"
   },
   "scripts": {
     "ng": "ng",
@@ -39,7 +39,8 @@
     "uikit": "^3.8.0",
     "zone.js": "~0.11.4",
     "@angular/cli": "~12.2.8",
-    "@angular/compiler-cli": "~12.2.0"
+    "@angular/compiler-cli": "~12.2.0",
+    "typescript": "^4.3.5"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.2.8",
@@ -62,6 +63,8 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
+    "@angular/cli": "~12.2.8",
+    "@angular/compiler-cli": "~12.2.0",
     "typescript": "^4.3.5"
   }
 }
