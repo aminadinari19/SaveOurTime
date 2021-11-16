@@ -13,7 +13,8 @@
     "lint": "eslint --ext .ts 'src/**/*'",
     "ng lint": "eslint --ext .ts 'src/**/*'",
     "build:ci": "ng build --prod --sourceMap=false --base-href /SaveOurTime/",
-    "test:ci": "ng test --watch=false --browsers=ChromeHeadless --code-coverage --source-map true"
+    "test:ci": "ng test --watch=false --browsers=ChromeHeadless --code-coverage --source-map true",
+    "postinstall": "ng build --aot --prod"
   },
   "private": true,
   "dependencies": {
