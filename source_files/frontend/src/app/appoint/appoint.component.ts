@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-export {}; declare global { interface Window { Calendly: any; } } 
+//export {}; declare global { interface Window { Calendly: any; } } 
 @Component({
   selector: 'app-appoint',
   templateUrl: './appoint.component.html',
@@ -7,10 +7,11 @@ export {}; declare global { interface Window { Calendly: any; } }
 })
 
 export class AppointComponent implements OnInit {
-  ngOnInit() {
-    window.Calendly.initInlineWidget({
-      url: 'https://calendly.com/timilehinbisolaojo/appointment-1',
-      parentElement: document.querySelector('.calendly-inline-widget'),
-    });
+  ngOnInit():void {
+    null
+    //window.Calendly.initInlineWidget({
+      //url: 'https://calendly.com/timilehinbisolaojo/appointment-1',
+      //parentElement: document.querySelector('.calendly-inline-widget'),
+    //});
   }
 }
