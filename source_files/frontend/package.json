@@ -15,7 +15,8 @@
     "ng lint": "eslint --ext .ts 'src/**/*'",
     "build:ci": "ng build --prod --sourceMap=false --base-href /SaveOurTime/",
     "test:ci": "ng test --watch=false --browsers=ChromeHeadless --code-coverage --source-map true",
-    "postinstall": "ng build --aot --prod"
+    "postinstall": "ng build --aot --prod",
+    "heroku-postbuild": "ng build --prod"
   },
   "private": true,
   "dependencies": {
