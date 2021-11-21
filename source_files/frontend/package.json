@@ -1,7 +1,10 @@
 {
   "name": "sot",
   "version": "0.0.0",
-  "engine": { "node": "8.9.4", "npm": "5.6.0" },
+  "engine": {
+    "node": "8.9.4",
+    "npm": "5.6.0"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
