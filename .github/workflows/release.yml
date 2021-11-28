@@ -1,10 +1,10 @@
 on:
   push:
-    branches: [main]
+    branches: [main, dev/*]
   pull_request:
-    branches: [main]
+    branches: [main, dev/*]
     tags:
-      - 'v.*.*' 
+      - 'v*.*.*' 
 
 name: Create Release
 
@@ -13,6 +13,10 @@ jobs:
     name: Create Release
     runs-on: ubuntu-latest
     steps:
+      - name: Setup
+        run: |
+          tag=`basename ${{ github.ref }}`
+          echo "VERSION=${tag}" >> $GITHUB_ENV
       - name: version 1.0.1
         uses: actions/checkout@v2
       - name: Create Release
