@@ -1,0 +1,2549 @@
+{
+  "intents": [
+    {
+      "intent": "A-Bot_Scope_Presentation",
+      "examples": [],
+      "description": "A - Bot scope presentation"
+    },
+    {
+      "intent": "COVID_19",
+      "examples": [
+        {
+          "text": "Covid"
+        },
+        {
+          "text": "COVID 10 updated"
+        },
+        {
+          "text": "COVID_19"
+        },
+        {
+          "text": "Covid information"
+        },
+        {
+          "text": "Covid updated"
+        },
+        {
+          "text": "CVOID"
+        },
+        {
+          "text": "CVOID 19 ELTE"
+        },
+        {
+          "text": "CVOID 19 ELTE NEWS"
+        },
+        {
+          "text": "CVOID ELTE"
+        },
+        {
+          "text": "CVOID ELTE NEWS"
+        },
+        {
+          "text": "CVOID NEWS"
+        },
+        {
+          "text": "Do we have to attend classes online?"
+        },
+        {
+          "text": "Do we have to go to university in person?"
+        },
+        {
+          "text": "Do we have to go university in person?"
+        },
+        {
+          "text": "Is the university going to be offline?"
+        },
+        {
+          "text": "Is the university going to be online?"
+        },
+        {
+          "text": "IS the university is onsite?"
+        },
+        {
+          "text": "Is the university online?"
+        },
+        {
+          "text": "Should I go to the university in person?"
+        },
+        {
+          "text": "The covid situation"
+        },
+        {
+          "text": "What is the covid 19 situation updates"
+        },
+        {
+          "text": "What is the covid 19 updates"
+        },
+        {
+          "text": "What is the covid updates"
+        },
+        {
+          "text": "What is the current situation of COVID 19 at the university?"
+        },
+        {
+          "text": "What is the situation at the university now with covid?"
+        },
+        {
+          "text": "What is the situation of COVID 19 at the university?"
+        },
+        {
+          "text": "Will the University be online?"
+        }
+      ],
+      "description": "CVOID 19 ELTE NEWS "
+    },
+    {
+      "intent": "Developers",
+      "examples": [
+        {
+          "text": "Could you tell me who exactly programmed you?"
+        },
+        {
+          "text": "DEV"
+        },
+        {
+          "text": "Developers"
+        },
+        {
+          "text": "DEVS"
+        },
+        {
+          "text": "I need you to tell me what or who made you?"
+        },
+        {
+          "text": "I want to know who made you"
+        },
+        {
+          "text": "I want to speak to your creator."
+        },
+        {
+          "text": "I wonder where you come from."
+        },
+        {
+          "text": "I would love to know who made you."
+        },
+        {
+          "text": "Name me the name of your maker"
+        },
+        {
+          "text": "Say your creator's name"
+        },
+        {
+          "text": "So if you're a bot, then that means that someone had to program you."
+        },
+        {
+          "text": "So if you're a robot, that means someone made you."
+        },
+        {
+          "text": "Talk about the one who created you"
+        },
+        {
+          "text": "Tell me the name of your maker now."
+        },
+        {
+          "text": "Tell me who created you."
+        },
+        {
+          "text": "what is the company that developed you?"
+        },
+        {
+          "text": "What is the name of the programmer that made you?"
+        },
+        {
+          "text": "Where exactly did you come from?"
+        },
+        {
+          "text": "Who are the developers who created you?"
+        },
+        {
+          "text": "Who are the developers who developed you?"
+        },
+        {
+          "text": "Who are the founders"
+        },
+        {
+          "text": "Who are the programmers who created you?"
+        },
+        {
+          "text": "Who are the programmers who developed you?"
+        },
+        {
+          "text": "who built you?"
+        },
+        {
+          "text": "Who coded you?"
+        },
+        {
+          "text": "Who created you?"
+        },
+        {
+          "text": "who designed you?"
+        },
+        {
+          "text": "Who exactly programmed you?"
+        },
+        {
+          "text": "who is you dad?"
+        },
+        {
+          "text": "Who is your creator?"
+        },
+        {
+          "text": "Who is your father"
+        },
+        {
+          "text": "who is your father or your creator?"
+        },
+        {
+          "text": "Who is your mom?"
+        },
+        {
+          "text": "who is your mother?"
+        },
+        {
+          "text": "Who made you?"
+        },
+        {
+          "text": "Who programmed you?"
+        },
+        {
+          "text": "you were designed by someone?"
+        }
+      ],
+      "description": "Developers"
+    },
+    {
+      "intent": "Documents_Quaestura",
+      "examples": [
+        {
+          "text": "Certificate of Student Status"
+        },
+        {
+          "text": "Complaint about transferred yet unreceived inpayment"
+        },
+        {
+          "text": "Delivery of the Student Card (by post)"
+        },
+        {
+          "text": "Delivery of the Temporary Student Certificate (by post)"
+        },
+        {
+          "text": "Fees and Funds"
+        },
+        {
+          "text": "Health Insurance Card request for foreigners"
+        },
+        {
+          "text": "How can I get my ID"
+        },
+        {
+          "text": "How can I get my student car"
+        },
+        {
+          "text": "I need an active student certificate"
+        },
+        {
+          "text": "I need an active student certificate in english"
+        },
+        {
+          "text": "I need an active student certificate in hungarian"
+        },
+        {
+          "text": "I need a student active status"
+        },
+        {
+          "text": "I need a student certificate"
+        },
+        {
+          "text": "I need a student status"
+        },
+        {
+          "text": "I need my student card"
+        },
+        {
+          "text": "I need to activate my student card"
+        },
+        {
+          "text": "I want a temporary active student certificate"
+        },
+        {
+          "text": "online administration"
+        },
+        {
+          "text": "Other questions regarding the Student Card"
+        },
+        {
+          "text": "Payment"
+        },
+        {
+          "text": "Quaestura"
+        },
+        {
+          "text": "Quaestura related documents"
+        },
+        {
+          "text": "Questora office"
+        },
+        {
+          "text": "Student Card"
+        },
+        {
+          "text": "student card approval"
+        },
+        {
+          "text": "student card document"
+        },
+        {
+          "text": "student card paper"
+        },
+        {
+          "text": "student card receiving"
+        },
+        {
+          "text": "Student Loan"
+        },
+        {
+          "text": "Tax and Income Certificate"
+        },
+        {
+          "text": "temporary active certificate"
+        },
+        {
+          "text": "temporary active student certificate"
+        },
+        {
+          "text": "temporary active student status"
+        }
+      ],
+      "description": "Quaestura related documents"
+    },
+    {
+      "intent": "ELTE",
+      "examples": [
+        {
+          "text": "ELTE what is it?"
+        },
+        {
+          "text": "What does ELTE"
+        },
+        {
+          "text": "What does ELTE Refers to"
+        },
+        {
+          "text": "What ELTE refers to"
+        },
+        {
+          "text": "What is ELTE"
+        },
+        {
+          "text": "what is elte?"
+        },
+        {
+          "text": "What is ELTE refers to"
+        },
+        {
+          "text": "What is it ELTE"
+        },
+        {
+          "text": "What is the meaning of ELTE"
+        }
+      ],
+      "description": "What is ELTE"
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help me"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Help plz"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "I need your help"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you useful for?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What can you do for me?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You've been so helpful :)"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "GoodBye",
+      "examples": [
+        {
+          "text": "Adiós"
+        },
+        {
+          "text": "arrivederci"
+        },
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "Bye bot"
+        },
+        {
+          "text": "Bye Bye"
+        },
+        {
+          "text": "bye,bye"
+        },
+        {
+          "text": "Byebye"
+        },
+        {
+          "text": "Bye Bye SOT"
+        },
+        {
+          "text": "Bye, see you"
+        },
+        {
+          "text": "Bye Sot"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya"
+        },
+        {
+          "text": "enjoy the rest of the day"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "goodbye I'm[leaving]"
+        },
+        {
+          "text": "good night"
+        },
+        {
+          "text": "have a great day"
+        },
+        {
+          "text": "Have a great evening"
+        },
+        {
+          "text": "have a great night"
+        },
+        {
+          "text": "Have a nice evening"
+        },
+        {
+          "text": "I gotta go, bye."
+        },
+        {
+          "text": "I gotta go, see ya."
+        },
+        {
+          "text": "I'm getting out of here"
+        },
+        {
+          "text": "I'm going, bye"
+        },
+        {
+          "text": "I'm going, see ya"
+        },
+        {
+          "text": "Ok bye"
+        },
+        {
+          "text": "See ya"
+        },
+        {
+          "text": "See ya bot"
+        },
+        {
+          "text": "See ya SOT"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "See you !"
+        },
+        {
+          "text": "seeyou"
+        },
+        {
+          "text": "See you another time"
+        },
+        {
+          "text": "See you around"
+        },
+        {
+          "text": "See you, bye"
+        },
+        {
+          "text": "See you next time"
+        },
+        {
+          "text": "see you soon"
+        },
+        {
+          "text": "Well bye"
+        },
+        {
+          "text": "Well, Bye."
+        },
+        {
+          "text": "Well, I'll see you later."
+        },
+        {
+          "text": "Well, I'm going. Bye."
+        },
+        {
+          "text": "well, see ya"
+        },
+        {
+          "text": "Well, see you then"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Hello",
+      "examples": [
+        {
+          "text": "Buonjour"
+        },
+        {
+          "text": "Ciao"
+        },
+        {
+          "text": "Ciaoo"
+        },
+        {
+          "text": "Ciaooo"
+        },
+        {
+          "text": "Guten"
+        },
+        {
+          "text": "Guten Morgan"
+        },
+        {
+          "text": "Hallo"
+        },
+        {
+          "text": "Heeeey"
+        },
+        {
+          "text": "Heeei"
+        },
+        {
+          "text": "Heeey"
+        },
+        {
+          "text": "Heey"
+        },
+        {
+          "text": "Helllo"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "helloi"
+        },
+        {
+          "text": "helloii"
+        },
+        {
+          "text": "Helloo"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Hey Dude"
+        },
+        {
+          "text": "Hey girl"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hi Dear"
+        },
+        {
+          "text": "Hillo"
+        },
+        {
+          "text": "Hillow"
+        },
+        {
+          "text": "Hillw"
+        },
+        {
+          "text": "hola"
+        },
+        {
+          "text": "Joo"
+        },
+        {
+          "text": "Salve"
+        },
+        {
+          "text": "Sot"
+        },
+        {
+          "text": "Szia"
+        },
+        {
+          "text": "Sziaa"
+        },
+        {
+          "text": "Sziastok"
+        },
+        {
+          "text": "Sziasztok"
+        },
+        {
+          "text": "Sziaztok"
+        },
+        {
+          "text": "Sziia"
+        },
+        {
+          "text": "Whassup"
+        },
+        {
+          "text": "Whatsup"
+        },
+        {
+          "text": "Yoo"
+        },
+        {
+          "text": "Yoooi"
+        },
+        {
+          "text": "اهلا"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Insults",
+      "examples": [
+        {
+          "text": "A7a"
+        },
+        {
+          "text": "arse"
+        },
+        {
+          "text": "arsehole"
+        },
+        {
+          "text": "arslehole"
+        },
+        {
+          "text": "ass"
+        },
+        {
+          "text": "ass-kisser"
+        },
+        {
+          "text": "ass-licker"
+        },
+        {
+          "text": "bastard"
+        },
+        {
+          "text": "bimbo"
+        },
+        {
+          "text": "bitch"
+        },
+        {
+          "text": "Bitchh"
+        },
+        {
+          "text": "bloddy whore"
+        },
+        {
+          "text": "bloody bitch"
+        },
+        {
+          "text": "bloody whole"
+        },
+        {
+          "text": "Bonehead"
+        },
+        {
+          "text": "butt"
+        },
+        {
+          "text": "chiken"
+        },
+        {
+          "text": "cumbag"
+        },
+        {
+          "text": "cunt"
+        },
+        {
+          "text": "dag"
+        },
+        {
+          "text": "Dick"
+        },
+        {
+          "text": "dickhead"
+        },
+        {
+          "text": "dickheat"
+        },
+        {
+          "text": "Donehead"
+        },
+        {
+          "text": "donkey"
+        },
+        {
+          "text": "Dork"
+        },
+        {
+          "text": "Dumb"
+        },
+        {
+          "text": "dumb bitch"
+        },
+        {
+          "text": "Dunce"
+        },
+        {
+          "text": "fk you"
+        },
+        {
+          "text": "freak"
+        },
+        {
+          "text": "Fuck you"
+        },
+        {
+          "text": "fuck youuuuu"
+        },
+        {
+          "text": "Fuk you"
+        },
+        {
+          "text": "jackass"
+        },
+        {
+          "text": "Jerk"
+        },
+        {
+          "text": "nut"
+        },
+        {
+          "text": "old bat"
+        },
+        {
+          "text": "pig"
+        },
+        {
+          "text": "poof"
+        },
+        {
+          "text": "poofter"
+        },
+        {
+          "text": "prat"
+        },
+        {
+          "text": "psycho"
+        },
+        {
+          "text": "rat"
+        },
+        {
+          "text": "scum"
+        },
+        {
+          "text": "sicko"
+        },
+        {
+          "text": "silly"
+        },
+        {
+          "text": "SLut"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "stupid piece of technology"
+        },
+        {
+          "text": "suck"
+        },
+        {
+          "text": "Sucker"
+        },
+        {
+          "text": "tter"
+        },
+        {
+          "text": "twerp"
+        },
+        {
+          "text": "Umb"
+        },
+        {
+          "text": "wanker"
+        },
+        {
+          "text": "What the fuck"
+        },
+        {
+          "text": "Whore"
+        },
+        {
+          "text": "wimp"
+        },
+        {
+          "text": "WTF"
+        },
+        {
+          "text": "WTFuck"
+        },
+        {
+          "text": "You are a useless bitch"
+        },
+        {
+          "text": "You don't know anything"
+        },
+        {
+          "text": "You know nothing"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Joke",
+      "examples": [
+        {
+          "text": "be funny"
+        },
+        {
+          "text": "Gemmi a joke"
+        },
+        {
+          "text": "Gimmi a joke"
+        },
+        {
+          "text": "give me a joke"
+        },
+        {
+          "text": "Hear a joke"
+        },
+        {
+          "text": "hear a jokee"
+        },
+        {
+          "text": "I wanna hear a joke"
+        },
+        {
+          "text": "I want to hear a joke"
+        },
+        {
+          "text": "Joke"
+        },
+        {
+          "text": "jokeing"
+        },
+        {
+          "text": "joking"
+        },
+        {
+          "text": "lemme laugh"
+        },
+        {
+          "text": "let me laugh"
+        },
+        {
+          "text": "Make me laugh"
+        },
+        {
+          "text": "Makre me laugh"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Languages",
+      "examples": [
+        {
+          "text": "Arabic"
+        },
+        {
+          "text": "Chinese"
+        },
+        {
+          "text": "Do you speak Arabic?"
+        },
+        {
+          "text": "Do you speak Chinese?"
+        },
+        {
+          "text": "Do you speak French?"
+        },
+        {
+          "text": "Do you speak German?"
+        },
+        {
+          "text": "Do you speak hungarian?"
+        },
+        {
+          "text": "Do you speak Italian?"
+        },
+        {
+          "text": "French"
+        },
+        {
+          "text": "German"
+        },
+        {
+          "text": "Hungarian?"
+        },
+        {
+          "text": "Italian"
+        },
+        {
+          "text": "Japanese"
+        },
+        {
+          "text": "Languages"
+        },
+        {
+          "text": "What Languages can you speak"
+        },
+        {
+          "text": "What Languages do you speak"
+        },
+        {
+          "text": "What Languages do you you"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "My_Name_Is",
+      "examples": [
+        {
+          "text": "I am Rodolf"
+        },
+        {
+          "text": "My name IS Amina"
+        },
+        {
+          "text": "My name is Angela"
+        },
+        {
+          "text": "My name is Michel"
+        },
+        {
+          "text": "My name is Odi"
+        },
+        {
+          "text": "My name is Rodolf"
+        },
+        {
+          "text": "My name is Zoltan"
+        },
+        {
+          "text": "My nanme is"
+        },
+        {
+          "text": "they call me ROdolf"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Scholarship",
+      "examples": [
+        {
+          "text": "Information about Erasmus scholarship"
+        },
+        {
+          "text": "Information about my scholarship"
+        },
+        {
+          "text": "Information about receive the Scholarship"
+        },
+        {
+          "text": "Information about the scholarship"
+        },
+        {
+          "text": "Information about the SH scholarship"
+        },
+        {
+          "text": "Information about the young christian scholarship"
+        },
+        {
+          "text": "receive my Scholarship"
+        },
+        {
+          "text": "receive scholarship"
+        },
+        {
+          "text": "receive the Scholarship"
+        },
+        {
+          "text": "Scholarship"
+        },
+        {
+          "text": "Scholarship for Christian Young People"
+        },
+        {
+          "text": "stipendium hungaricum scholarship"
+        },
+        {
+          "text": "When will I get my Scholarship"
+        },
+        {
+          "text": "When will I get the money of the scholarship?"
+        },
+        {
+          "text": "when will I receive my Scholarship"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Thank_you",
+      "examples": [
+        {
+          "text": "All right, thank you."
+        },
+        {
+          "text": "all seems okay now, thanks a lot for your quick help!"
+        },
+        {
+          "text": "Got it, thank you."
+        },
+        {
+          "text": "Gracias"
+        },
+        {
+          "text": "great news"
+        },
+        {
+          "text": "great thanks"
+        },
+        {
+          "text": "Great. Thanks"
+        },
+        {
+          "text": "great will do"
+        },
+        {
+          "text": "helpful"
+        },
+        {
+          "text": "I'll manage thanks for your help."
+        },
+        {
+          "text": "I'm grateful to you"
+        },
+        {
+          "text": "May God bless you"
+        },
+        {
+          "text": "My bests and have a good day."
+        },
+        {
+          "text": "Okay, I understand. Thank you very much."
+        },
+        {
+          "text": "Okay, thank you for your answers."
+        },
+        {
+          "text": "Ok. Thank you so much for your assistance"
+        },
+        {
+          "text": "ok Thank you very much"
+        },
+        {
+          "text": "Perfect. Thank you."
+        },
+        {
+          "text": "Thanks for the answer"
+        },
+        {
+          "text": "Thanks for your great advice."
+        },
+        {
+          "text": "Thanks for your great help."
+        },
+        {
+          "text": "Thanks for your great insight."
+        },
+        {
+          "text": "Thanks for your great lights."
+        },
+        {
+          "text": "Thanks for your great time."
+        },
+        {
+          "text": "thanks good evening ;)"
+        },
+        {
+          "text": "Thanks so much"
+        },
+        {
+          "text": "Thanks, this is the one I'm looking for."
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "Thank you :)"
+        },
+        {
+          "text": "Thank you a lot"
+        },
+        {
+          "text": "Thank you for your answer"
+        },
+        {
+          "text": "thank you for your answer. Have a nice day"
+        },
+        {
+          "text": "Thank you for your precious time."
+        },
+        {
+          "text": "Thank you for your valuable information."
+        },
+        {
+          "text": "Thank you. I hope there's no wait."
+        },
+        {
+          "text": "thank you very much"
+        },
+        {
+          "text": "Thx"
+        },
+        {
+          "text": "tks"
+        },
+        {
+          "text": "tnx a lot"
+        },
+        {
+          "text": "You're awesome"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Yes",
+      "examples": [
+        {
+          "text": "ah ok.."
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "Alright !"
+        },
+        {
+          "text": "Indeed...."
+        },
+        {
+          "text": "Nice"
+        },
+        {
+          "text": "of course"
+        },
+        {
+          "text": "Of course, of course"
+        },
+        {
+          "text": "OK"
+        },
+        {
+          "text": "Ok !"
+        },
+        {
+          "text": "Ok 👍"
+        },
+        {
+          "text": "ok..."
+        },
+        {
+          "text": "Okay...."
+        },
+        {
+          "text": "Okay. Okay."
+        },
+        {
+          "text": "ok cool"
+        },
+        {
+          "text": "ok, nice"
+        },
+        {
+          "text": "ok perfect"
+        },
+        {
+          "text": "ok then"
+        },
+        {
+          "text": "perfect then"
+        },
+        {
+          "text": "So cool"
+        },
+        {
+          "text": "sure"
+        },
+        {
+          "text": "understood !"
+        },
+        {
+          "text": "Well perfect"
+        },
+        {
+          "text": "yeah !"
+        },
+        {
+          "text": "Yep"
+        },
+        {
+          "text": "YES"
+        },
+        {
+          "text": "yes !"
+        },
+        {
+          "text": "Yes, I know. I know."
+        },
+        {
+          "text": "yes please"
+        },
+        {
+          "text": "yes yes"
+        },
+        {
+          "text": "yup"
+        },
+        {
+          "text": "yup ok then"
+        },
+        {
+          "text": "yupyes !"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Hello",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Hello",
+          "synonyms": [
+            "Hello"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand 🤷. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding 🤷."
+              },
+              {
+                "text": "I didn't get your meaning 🤷."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1632933416704",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "ELTE",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eötvös Loránd University"
+              },
+              {
+                "text": "Eötvös Loránd University is a Hungarian public research university based in Budapest. Founded in 1635, ELTE is one of the largest and most prestigious public higher education institutions in Hungary 🎓🏫"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#ELTE",
+      "dialog_node": "node_10_1632933238488",
+      "previous_sibling": "node_6_1632933078639"
+    },
+    {
+      "type": "standard",
+      "title": "Languages",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am a native English speaker"
+              },
+              {
+                "text": "My developers are teaching me more languages, like Hungarian"
+              },
+              {
+                "text": "So stay tuned, what a smart bot I am 😁😁"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Languages",
+      "dialog_node": "node_1_1632933416704",
+      "previous_sibling": "node_10_1632933238488"
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Glad I could help! 😄"
+              },
+              {
+                "text": "What else can I do for you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Thank_you",
+      "dialog_node": "node_1_1635194004858",
+      "previous_sibling": "node_4_1635452006053"
+    },
+    {
+      "type": "standard",
+      "title": "Insults",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am sorry for the inconvenience 😞"
+              },
+              {
+                "text": "I really wish I could help you, you can try asking me another question, or you can leave feedback for my developer from the report page on the website"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Insults || #General_Negative_Feedback",
+      "dialog_node": "node_2_1635451076315",
+      "previous_sibling": "node_6_1635452892869"
+    },
+    {
+      "type": "standard",
+      "title": "Security of info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dear student, please be sure that all the conversations you have here with me is fully secure, and it is a free area you can ask/enquire about anything related to ELTE 😃"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Security_Assurance",
+      "dialog_node": "node_2_1635452768883",
+      "previous_sibling": "node_3_1635453020298"
+    },
+    {
+      "type": "standard",
+      "title": "No Human",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "My developers created me to be a 1 to 1 chatbot, without any human interaction 🧍🚫"
+              },
+              {
+                "text": "I love humans don't get me wrong, but I am faster than them  😎 😎"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#General_Connect_to_Agent",
+      "dialog_node": "node_3_1635453020298",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Joke",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How did the robot get across the river? In a ro-boat ⛵"
+              },
+              {
+                "text": "What music do robots like? Heavy metal 🎵🎵"
+              },
+              {
+                "text": "Why did the robot go to the bank 🏦 ? He'd spent all his cache."
+              },
+              {
+                "text": "What restaurant 🍔 did the robot go to? Megabytes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Joke || #General_Jokes",
+      "dialog_node": "node_4_1635452006053",
+      "previous_sibling": "node_2_1635451076315"
+    },
+    {
+      "type": "standard",
+      "title": "Scholarship",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Regarding the monthly allowance of the scholarship, you will usually get in on the 10th day of each month 💰"
+              },
+              {
+                "text": "Also, please be reminded that it might come few days earlier/later"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Scholarship",
+      "dialog_node": "node_5_1635618048986",
+      "previous_sibling": "node_9_1635194992032"
+    },
+    {
+      "type": "standard",
+      "title": "Hello",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi"
+              },
+              {
+                "text": "What is the matter? 😃"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Hello",
+      "dialog_node": "node_6_1632933078639",
+      "previous_sibling": "node_9_1634045908105"
+    },
+    {
+      "type": "standard",
+      "title": "Positive feedback",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am really delighted that you are satisfied with my service 😊 "
+              },
+              {
+                "text": "Can I help you with anything else? 😃"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_6_1635452892869",
+      "previous_sibling": "node_2_1635452768883"
+    },
+    {
+      "type": "standard",
+      "title": "YES",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure! Let me know if you have any other questions, I can help with 🤗 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Yes",
+      "dialog_node": "node_7_1635194567318",
+      "previous_sibling": "node_1_1635194004858"
+    },
+    {
+      "type": "standard",
+      "title": "My_Name_Is",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice meeting you 😊"
+              },
+              {
+                "text": "Tell me how can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#My_Name_Is",
+      "dialog_node": "node_7_1635615002045",
+      "previous_sibling": "node_7_1635618545047"
+    },
+    {
+      "type": "standard",
+      "title": "General Agent capabilities",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can ask me any administrative question related to ELTE and I will do my best to help you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Agent_Capabilities",
+      "dialog_node": "node_7_1635618545047"
+    },
+    {
+      "type": "standard",
+      "title": "COVID_19",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To check the most updated information regarding COVID-19 within the university please check the article that contains the steps taken by the University and other announcements via the link below"
+              },
+              {
+                "text": "https://www.elte.hu/en/coronavirus"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "source": "https://media.giphy.com/media/BEhaTU9kOHaqKKLHC5/giphy.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#COVID_19",
+      "dialog_node": "node_8_1634044803485",
+      "previous_sibling": "node_8_1635189404064"
+    },
+    {
+      "type": "standard",
+      "title": "DEV",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It's SOT's team!"
+              },
+              {
+                "text": "You will find more information on the website, the About Us Page"
+              },
+              {
+                "text": "I came from the hard work of a team of students with a bright future, come and discover them on the website"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Developers || #General_About_You",
+      "dialog_node": "node_8_1635189404064",
+      "previous_sibling": "node_5_1635618048986"
+    },
+    {
+      "type": "standard",
+      "title": "Documents Quaestura ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you need any administrative document from Quaestura office please press the link below and choose the desired document "
+              },
+              {
+                "text": "https://qter.elte.hu/Ugy.aspx"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "source": "https://media.giphy.com/media/xUPGcCEoY4LKQGOrFm/giphy.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#Documents_Quaestura",
+      "dialog_node": "node_9_1634045908105",
+      "previous_sibling": "node_8_1634044803485"
+    },
+    {
+      "type": "standard",
+      "title": "GoodBye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Goodbye to you too! 💁"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#GoodBye || #General_Ending",
+      "dialog_node": "node_9_1635194992032",
+      "previous_sibling": "node_7_1635194567318"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello"
+              },
+              {
+                "text": "I am SOT, the Artificial Intelligence chatbot of Eötvös Loránd University 🎓🏫"
+              },
+              {
+                "text": "How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "welcome || #General_Human_or_Bot || #General_Greetings",
+      "dialog_node": "Welcome",
+      "previous_sibling": "node_7_1635615002045"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "SOT",
+  "language": "en",
+  "description": "The AI of ELTE"
+}
