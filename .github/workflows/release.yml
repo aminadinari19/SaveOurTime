@@ -13,7 +13,7 @@ jobs:
     name: Create Release
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: version 1.0.1
         uses: actions/checkout@v2
       - name: Create Release
         id: create_release
@@ -25,7 +25,5 @@ jobs:
           release_name: Release ${{ github.ref }}
           body: |
             Changes in this Release
-            - First Change
-            - Second Change
           draft: false
           prerelease: false
