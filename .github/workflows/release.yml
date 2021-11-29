@@ -14,15 +14,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: version 1.0.3
-        uses: actions/checkout@v2
+        uses: actions/checkout@v1
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
         with:
-          tag_name:  v1.0.3
-          release_name: v1.0.3
+          tag_name:  v1.0.2
+          release_name: v1.0.2
           body: |
             Changes in this Release
           draft: false

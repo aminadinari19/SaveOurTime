@@ -33,7 +33,7 @@ jobs:
         if: success()
         uses: actions/upload-artifact@v1
         with:
-          name: deploy_dist
+          name: SOTbinaries
           path: ./source_files/frontend/dist  
 
       - name: Test
@@ -50,14 +50,14 @@ jobs:
         working-directory: ./source_files/frontend
       
       - name: Archive docs coverage result
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v1
         with:
-          name: deploy_docs
+          name: SOTdocumentation
           path: ./source_files/frontend/documentation
 
       - name: Archive code coverage result
         if: success()
         uses: actions/upload-artifact@v1
         with:
-          name: deploy_coverage
+          name: SOTdeploymentCoverage
           path: ./source_files/frontend/coverage
