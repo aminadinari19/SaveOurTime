@@ -7,6 +7,7 @@ import {FAQComponent} from './faq/faq.component';
 import {AppointComponent} from './appoint/appoint.component';
 import {HomepageComponent} from './homepage/homepage.component';
 import {Routes} from '@angular/router';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 /**
 * Supported comment
@@ -30,7 +31,7 @@ const routes: Routes = [
     BrowserModule,
     AppRoutingModule,
   ],
-  providers: [],
+  providers: [{provide:LocationStrategy, useClass:HashLocationStrategy}],
   bootstrap: [AppComponent],
 })
 export class AppModule { }
