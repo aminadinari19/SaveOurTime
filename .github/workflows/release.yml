@@ -1,10 +1,10 @@
 on:
   push:
-    branches: [main, dev/*]
+    branches: [main, check_release]
   pull_request:
     branches: [main, dev/*]
     tags:
-      - 'v*' 
+      - '[0-9]+.[0-9]+.[0-9]+'
 
 name: Create Release
 
@@ -13,16 +13,25 @@ jobs:
     name: Create Release
     runs-on: ubuntu-latest
     steps:
-      - name: version 1.0.3
-        uses: actions/checkout@v1
+      - name: Changelog
+        uses: scottbrenner/generate-changelog-action@master
+        id: Changelog
+        env:
+          REPO: ${{ github.repository }}
+      - name: Setup
+        run: |
+          tag=`basename ${{ github.ref }}`
+          echo "VERSION=${tag}" >> $GITHUB_ENV
+      - name: version 1.0.1
+        uses: actions/checkout@v2
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
         with:
-          tag_name:  v1.0.4
-          release_name: v1.0.4
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
           body: |
             Changes in this Release
           draft: false
