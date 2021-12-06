@@ -1,26 +1,48 @@
 # SaveOurTime [![CI](https://github.com/odiisus/SaveOurTime/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/odiisus/SaveOurTime/actions/workflows/ci.yml)
 
+To check out the website: https://saveourtime.herokuapp.com
+
+## User Guide
+
+![Alt text](/MainPage.png?raw=true "The Main Page")
+
+SOT is brainchild of 4 student developers as a way to make the searching of information for the university easier. It is supposed to be used in addition with the official websites of the university to find any information regarding the administrative part of the studies.
+
+The FAQ page, as the name suggests, is there to answer the frequently asked questions. It covers topics from Neptun code to how the grading system works. It is ever-growing and there will be many more questions added to it as we progress.
+
+![Alt text](/FAQpage.png?raw=true "The FAQ page")
+
+Appointment page is there for students if they want to set up an appointment with student coordinators. The students can select the date and time based on the availability of the coordinators.
+
+![Alt text](/appoint.png?raw=true "The Appointment")
+
+SOT chatbot is there to help you with your concerns which cannot be found on the FAQ page. It can guide you about many topics and also crack a joke once in a while if you ask it to do so.
+![Alt text](/Chatbot.png?raw=true "The Chatbot")
+
+If you have any concerns regarding the chatbot or have any suggestions, you can always leave a feedback on the report page. 
+
+## Developer Guide
+
+For the developer guide [click here](source_files/frontend/README.md)
+
+## About Us
+Each of us has worked on different components of the website up until the deployment and continue to maintain it.
+
 Rodolf:
 
-Sept. 29th, 2021, at 18:57 I finished the first version of SOT having 4 ready to use "Use cases" (UC) and having primary "Training phrases" (TP), I am aiming that by the end of November Sot will be able to handle 80-100 question and answering them smartly.
-
-Oct. 21st, 2021, at 13:30 I finished a few new UCs and added them to the main SOT, as well as the embeded configuration.
-
-Oct. 27th, 2021, at 1:05 I finished a 5 new UCs and added them to SOT.
+Responsible for NLP based chatbot and all of its use-cases.
 
 Timi:
 
-Created the email sender which can be used to send emails to the clients when they book the appointment.
+Worked on the FAQ page and the Appointment page.
 
 Amina:
 
-Created the basic angular setup.
-Logically grouped the file.
-Co-authored the homepage with Odisuus.
+Worked on adding the tools of the project, continuous deployment,report page and documentation of the project.
 
 Odisuus:
 
-Worked with Amina in setting up Angular.
-Worked on making the first component i.e homepage.
+Worked on the main page, about us page and continuous deployment of the page. Also, they designed the background of the FAQ and About Us page.
 
+You can find more about us on the About Us page of the website.
 
