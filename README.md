@@ -1,9 +1,12 @@
 # SaveOurTime [![CI](https://github.com/odiisus/SaveOurTime/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/odiisus/SaveOurTime/actions/workflows/ci.yml)
 
 
-                                    # SaveOurTime 
+                                    SaveOurTime 
 
-To check out the website: https://saveourtime.herokuapp.com/index.html#/
+To check out the website: https://saveourtime.herokuapp.com
+
+
+SOT is brainchild of 4 student developers as a way to make the searching of information for the university easier. You can find more about us on the About Us page of the website.
 
 Rodolf:
 
