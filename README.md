@@ -12,6 +12,10 @@ The FAQ page, as the name suggests, is there to answer the frequently asked ques
 
 ![Alt text](/FAQpage.png?raw=true "The FAQ page")
 
+Appointment page is there for students if they want to set up an appointment with student coordinators. The students can select the date and time based on the availability of the coordinators.
+
+![Alt text](/appoint.png?raw=true "The Appointment")
+
 SOT chatbot is there to help you with your concerns which cannot be found on the FAQ page. It can guide you about many topics and also crack a joke once in a while if you ask it to do so.
 ![Alt text](/Chatbot.png?raw=true "The Chatbot")
 
