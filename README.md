@@ -19,6 +19,13 @@ Appointment page is there for students if they want to set up an appointment wit
 SOT chatbot is there to help you with your concerns which cannot be found on the FAQ page. It can guide you about many topics and also crack a joke once in a while if you ask it to do so.
 ![Alt text](/Chatbot.png?raw=true "The Chatbot")
 
+Report Page 
+
+If you have any concerns regarding the chatbot or have any suggestions, you can always leave a feedback here. 
+
+## Developer Guide
+
+For the developer guide [click here](source_files/frontend/README.md)
 
 ## About Us
 Each of us has worked on different components of the website up until the deployment and continue to maintain it.
