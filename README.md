@@ -4,9 +4,13 @@ To check out the website: https://saveourtime.herokuapp.com
 
 ## User Guide
 
-![Alt text](/MainPage.png?raw=true "Optional Title")
+![Alt text](/MainPage.png?raw=true "The Main Page")
 
 SOT is brainchild of 4 student developers as a way to make the searching of information for the university easier. It is supposed to be used in addition with the official websites of the university to find any information regarding the administrative part of the studies.
+
+The FAQ page, as the name suggests, is there to answer the frequently asked questions. It covers topics from Neptun code to how the grading system works. It is ever-growing and there will be many more questions added to it as we progress.
+
+![Alt text](/FAQpage.png?raw=true "The FAQ page")
 
 
 ## About Us
