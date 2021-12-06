@@ -6,27 +6,27 @@ To check out the website: https://saveourtime.herokuapp.com
 
 ![Alt text](/MainPage.png?raw=true "Optional Title")
 
+SOT is brainchild of 4 student developers as a way to make the searching of information for the university easier. It is supposed to be used in addition with the official websites of the university to find any information regarding the administrative part of the studies.
+
 
 ## About Us
-SOT is brainchild of 4 student developers as a way to make the searching of information for the university easier. You can find more about us on the About Us page of the website.
+Each of us has worked on different components of the website up until the deployment and continue to maintain it.
 
 Rodolf:
 
-Oct. 27th, 2021, at 1:05 I finished a 5 new UCs and added them to SOT.
+Responsible for NLP based chatbot and all of its use-cases.
 
 Timi:
 
-Created the email sender which can be used to send emails to the clients when they book the appointment.
+Worked on the FAQ page and the Appointment page.
 
 Amina:
 
-Created the basic angular setup.
-Logically grouped the file.
-Co-authored the homepage with Odisuus.
+Worked on adding the tools of the project, continuous deployment,report page and documentation of the project.
 
 Odisuus:
 
-Worked with Amina in setting up Angular.
-Worked on making the first component i.e homepage.
+Worked on the main page, about us page and continuous deployment of the page. Also, they designed the background of the FAQ and About Us page.
 
+You can find more about us on the About Us page of the website.
 
