@@ -12,6 +12,9 @@ The FAQ page, as the name suggests, is there to answer the frequently asked ques
 
 ![Alt text](/FAQpage.png?raw=true "The FAQ page")
 
+SOT chatbot is there to help you with your concerns which cannot be found on the FAQ page. It can guide you about many topics and also crack a joke once in a while if you ask it to do so.
+![Alt text](/Chatbot.png?raw=true "The Chatbot")
+
 
 ## About Us
 Each of us has worked on different components of the website up until the deployment and continue to maintain it.
