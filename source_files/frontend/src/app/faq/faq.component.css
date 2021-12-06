@@ -2,4 +2,9 @@
     max-width: 1000px;
     margin: 0 auto;
     padding: 40px 20px;
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 90% 200%;
+  
 }
