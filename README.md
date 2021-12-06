@@ -42,7 +42,7 @@ Worked on adding the tools of the project, continuous deployment,report page and
 
 Odisuus:
 
-Worked on the main page, about us page and continuous deployment of the page. Also, they designed the background of the FAQ and About Us page.
+Worked on the main page, about us page and continuous integration of the page. Also, they designed the background of the FAQ and About Us page.
 
 You can find more about us on the About Us page of the website.
 
