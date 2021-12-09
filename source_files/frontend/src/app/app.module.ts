@@ -8,6 +8,7 @@ import {AppointComponent} from './appoint/appoint.component';
 import {HomepageComponent} from './homepage/homepage.component';
 import {Routes} from '@angular/router';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { ReportComponent } from './report/report.component';
 
 /**
 * Supported comment
@@ -26,6 +27,7 @@ const routes: Routes = [
     FAQComponent,
     AppointComponent,
     HomepageComponent,
+    ReportComponent,
   ],
   imports: [
     BrowserModule,
