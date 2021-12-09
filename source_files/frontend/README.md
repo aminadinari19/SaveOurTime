@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
 
+## Requirements
+
+- node.js (Download from `https://nodejs.org/en/`) To check version `node -v`
+- npm package manager (Installed with node.js. To check version `npm -v`)
+
+### Install Angular CLI
+Run `npm install -g @angular/cli`
+
+After that, clone the app from the GitHub repository.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -18,9 +28,12 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Running es lint
+Run `ng test`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## To generate documentation 
+
+Run `compodoc -s tsconfig.app.json`
 
 ## Further help
 
