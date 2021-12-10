@@ -13,6 +13,7 @@ jobs:
     name: Create Release
     runs-on: ubuntu-latest
     steps:
+
       - name: Setup
         run: |
           tag=`basename ${{ github.ref }}`
@@ -33,6 +34,5 @@ jobs:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
           body: |
-            
           draft: false
           prerelease: false
