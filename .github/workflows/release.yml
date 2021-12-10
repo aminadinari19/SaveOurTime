@@ -13,7 +13,7 @@ jobs:
     name: Create Release
     runs-on: ubuntu-latest
     steps:
-      - name: version 1.0.3
+      - name: version 1.0.5
         uses: actions/checkout@v1
       - name: Create Release
         id: create_release
@@ -21,9 +21,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
         with:
-          tag_name:  v1.0.4
-          release_name: v1.0.4
+          tag_name:  v1.0.5
+          release_name: v1.0.5
           body: |
             Changes in this Release
+            Added Report Page
           draft: false
           prerelease: false
