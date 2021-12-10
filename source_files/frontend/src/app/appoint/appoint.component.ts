@@ -12,7 +12,7 @@ export class AppointComponent implements OnInit {
     //   url: 'https://calendly.com/timilehinbisolaojo/appointment-1',
     //   parentElement: document.querySelector('.calendly-inline-widget'),
     //   prefill: {},
-    // //   utm: {}
+    //   utm: {}
     // });
   }
 }
