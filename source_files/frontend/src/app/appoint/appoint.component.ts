@@ -8,11 +8,11 @@ export {}; declare global { interface Window { Calendly: any; } }
 
 export class AppointComponent implements OnInit {
   ngOnInit():void {
-    window.Calendly.initInlineWidget({
-      url: 'https://calendly.com/timilehinbisolaojo/appointment-1',
-      parentElement: document.querySelector('.calendly-inline-widget'),
-      prefill: {},
-      utm: {}
-    });
+    // window.Calendly.initInlineWidget({
+    //   url: 'https://calendly.com/timilehinbisolaojo/appointment-1',
+    //   parentElement: document.querySelector('.calendly-inline-widget'),
+    //   prefill: {},
+    // //   utm: {}
+    // });
   }
 }
